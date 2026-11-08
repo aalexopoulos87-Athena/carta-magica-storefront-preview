@@ -1,0 +1,755 @@
+{
+  "total": 75,
+  "previousTotal": 39,
+  "added": 36,
+  "byStore": {
+    "ottawa": 38,
+    "montreal": 37
+  },
+  "sources": {
+    "ottawa_inventory_TCG_Sealed_Product.csv": 24,
+    "montreal_inventory_all_previous.csv": 37,
+    "ottawa_inventory_other_categories.csv": 8,
+    "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv": 6
+  },
+  "byKind": {
+    "sealed": 61,
+    "board": 3,
+    "accessories": 2,
+    "rpg": 1,
+    "gunpla": 1,
+    "collectibles": 1,
+    "singles": 6
+  },
+  "byStoreAndGame": {
+    "montreal": {
+      "Pokémon": 2,
+      "Magic: The Gathering": 12,
+      "One Piece": 2,
+      "Yu-Gi-Oh!": 6,
+      "Digimon": 2,
+      "Flesh & Blood": 2,
+      "Lorcana": 1,
+      "Dragon Ball": 6,
+      "Union Arena": 4
+    },
+    "ottawa": {
+      "Pokémon": 2,
+      "Magic: The Gathering": 6,
+      "One Piece": 2,
+      "Yu-Gi-Oh!": 7,
+      "Digimon": 2,
+      "Flesh & Blood": 1,
+      "Other": 6,
+      "Gundam": 1,
+      "Lorcana": 1,
+      "Dragon Ball": 6,
+      "Union Arena": 4
+    }
+  },
+  "beforeByStoreAndGame": {
+    "montreal": {
+      "Pokémon": 2,
+      "Magic: The Gathering": 8,
+      "One Piece": 2,
+      "Yu-Gi-Oh!": 2,
+      "Digimon": 2,
+      "Flesh & Blood": 2,
+      "Lorcana": 1
+    },
+    "ottawa": {
+      "Pokémon": 2,
+      "Magic: The Gathering": 2,
+      "One Piece": 2,
+      "Yu-Gi-Oh!": 3,
+      "Digimon": 2,
+      "Flesh & Blood": 1,
+      "Other": 6,
+      "Gundam": 1,
+      "Lorcana": 1
+    }
+  },
+  "bandaiLines": [
+    "Union Arena",
+    "Dragon Ball",
+    "One Piece",
+    "Digimon"
+  ],
+  "products": [
+    {
+      "id": "ottawa-821347",
+      "sourceId": "821347",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Pokémon",
+      "price": 34.99,
+      "stock": 5
+    },
+    {
+      "id": "ottawa-821348",
+      "sourceId": "821348",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Pokémon",
+      "price": 34.99,
+      "stock": 6
+    },
+    {
+      "id": "ottawa-819531",
+      "sourceId": "819531",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 79.99,
+      "stock": 7
+    },
+    {
+      "id": "ottawa-819534",
+      "sourceId": "819534",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 49.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-820514",
+      "sourceId": "820514",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "One Piece",
+      "price": 49.99,
+      "stock": 2
+    },
+    {
+      "id": "ottawa-821835",
+      "sourceId": "821835",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "One Piece",
+      "price": 349.99,
+      "stock": 23
+    },
+    {
+      "id": "ottawa-820213",
+      "sourceId": "820213",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 44.99,
+      "stock": 11
+    },
+    {
+      "id": "ottawa-820945",
+      "sourceId": "820945",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 89.99,
+      "stock": 9
+    },
+    {
+      "id": "ottawa-820218",
+      "sourceId": "820218",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Digimon",
+      "price": 144.99,
+      "stock": 11
+    },
+    {
+      "id": "ottawa-820877",
+      "sourceId": "820877",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Digimon",
+      "price": 149.99,
+      "stock": 2
+    },
+    {
+      "id": "ottawa-752885",
+      "sourceId": "752885",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Flesh & Blood",
+      "price": 59.99,
+      "stock": 4
+    },
+    {
+      "id": "montreal-1063853",
+      "sourceId": "1063853",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Pokémon",
+      "price": 299.99,
+      "stock": 6
+    },
+    {
+      "id": "montreal-1064534",
+      "sourceId": "1064534",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Pokémon",
+      "price": 69.99,
+      "stock": 9
+    },
+    {
+      "id": "montreal-1066900",
+      "sourceId": "1066900",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 139.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1067102",
+      "sourceId": "1067102",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 79.99,
+      "stock": 4
+    },
+    {
+      "id": "montreal-1064950",
+      "sourceId": "1064950",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "One Piece",
+      "price": 499.99,
+      "stock": 15
+    },
+    {
+      "id": "montreal-1066693",
+      "sourceId": "1066693",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "One Piece",
+      "price": 299.99,
+      "stock": 5
+    },
+    {
+      "id": "montreal-1062008",
+      "sourceId": "1062008",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 99.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1064531",
+      "sourceId": "1064531",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 39.99,
+      "stock": 33
+    },
+    {
+      "id": "montreal-1056449",
+      "sourceId": "1056449",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Digimon",
+      "price": 39.99,
+      "stock": 3
+    },
+    {
+      "id": "montreal-1057523",
+      "sourceId": "1057523",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Digimon",
+      "price": 149.99,
+      "stock": 25
+    },
+    {
+      "id": "montreal-1007718",
+      "sourceId": "1007718",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Flesh & Blood",
+      "price": 59.99,
+      "stock": 2
+    },
+    {
+      "id": "montreal-1021403",
+      "sourceId": "1021403",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Flesh & Blood",
+      "price": 109.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-40246",
+      "sourceId": "40246",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 29.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-279583",
+      "sourceId": "279583",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 54.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-280273",
+      "sourceId": "280273",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 29.99,
+      "stock": 4
+    },
+    {
+      "id": "ottawa-124543",
+      "sourceId": "124543",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 11.99,
+      "stock": 30
+    },
+    {
+      "id": "ottawa-125603",
+      "sourceId": "125603",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 5.99,
+      "stock": 4
+    },
+    {
+      "id": "ottawa-769054",
+      "sourceId": "769054",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 64.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-293033",
+      "sourceId": "293033",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Gundam",
+      "price": 79.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-120503",
+      "sourceId": "120503",
+      "store": "ottawa",
+      "source": "ottawa_inventory_other_categories.csv",
+      "game": "Other",
+      "price": 19.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1",
+      "sourceId": "1",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 4.77,
+      "stock": 1
+    },
+    {
+      "id": "montreal-43",
+      "sourceId": "43",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 19.99,
+      "stock": 3
+    },
+    {
+      "id": "montreal-117",
+      "sourceId": "117",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 19.52,
+      "stock": 1
+    },
+    {
+      "id": "montreal-135",
+      "sourceId": "135",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 8.99,
+      "stock": 6
+    },
+    {
+      "id": "montreal-231",
+      "sourceId": "231",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 6.0,
+      "stock": 7
+    },
+    {
+      "id": "montreal-413",
+      "sourceId": "413",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 15.44,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-820972",
+      "sourceId": "820972",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Lorcana",
+      "price": 199.99,
+      "stock": 11
+    },
+    {
+      "id": "montreal-1063859",
+      "sourceId": "1063859",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Lorcana",
+      "price": 279.99,
+      "stock": 5
+    },
+    {
+      "id": "montreal-1058352",
+      "sourceId": "1058352",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 19.99,
+      "stock": 34
+    },
+    {
+      "id": "montreal-1056976",
+      "sourceId": "1056976",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 89.99,
+      "stock": 8
+    },
+    {
+      "id": "montreal-1051479",
+      "sourceId": "1051479",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 4.99,
+      "stock": 7
+    },
+    {
+      "id": "montreal-1051478",
+      "sourceId": "1051478",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 69.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1066899",
+      "sourceId": "1066899",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 79.99,
+      "stock": 3
+    },
+    {
+      "id": "montreal-1066898",
+      "sourceId": "1066898",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 79.99,
+      "stock": 7
+    },
+    {
+      "id": "montreal-1066897",
+      "sourceId": "1066897",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 7.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1066894",
+      "sourceId": "1066894",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Magic: The Gathering",
+      "price": 199.99,
+      "stock": 12
+    },
+    {
+      "id": "montreal-1043107",
+      "sourceId": "1043107",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 9.99,
+      "stock": 27
+    },
+    {
+      "id": "montreal-1043106",
+      "sourceId": "1043106",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 199.99,
+      "stock": 10
+    },
+    {
+      "id": "montreal-1039579",
+      "sourceId": "1039579",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 6
+    },
+    {
+      "id": "montreal-1036767",
+      "sourceId": "1036767",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 30
+    },
+    {
+      "id": "montreal-1036766",
+      "sourceId": "1036766",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 9.99,
+      "stock": 24
+    },
+    {
+      "id": "montreal-1036765",
+      "sourceId": "1036765",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 7
+    },
+    {
+      "id": "montreal-1067063",
+      "sourceId": "1067063",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Union Arena",
+      "price": 249.99,
+      "stock": 16
+    },
+    {
+      "id": "montreal-1066569",
+      "sourceId": "1066569",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Union Arena",
+      "price": 149.99,
+      "stock": 10
+    },
+    {
+      "id": "montreal-1056455",
+      "sourceId": "1056455",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Union Arena",
+      "price": 199.99,
+      "stock": 1
+    },
+    {
+      "id": "montreal-1052925",
+      "sourceId": "1052925",
+      "store": "montreal",
+      "source": "montreal_inventory_all_previous.csv",
+      "game": "Union Arena",
+      "price": 99.99,
+      "stock": 22
+    },
+    {
+      "id": "ottawa-819478",
+      "sourceId": "819478",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 34.99,
+      "stock": 18
+    },
+    {
+      "id": "ottawa-816874",
+      "sourceId": "816874",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 59.99,
+      "stock": 46
+    },
+    {
+      "id": "ottawa-816872",
+      "sourceId": "816872",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 89.99,
+      "stock": 2
+    },
+    {
+      "id": "ottawa-812183",
+      "sourceId": "812183",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Yu-Gi-Oh!",
+      "price": 89.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-819525",
+      "sourceId": "819525",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 209.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-819507",
+      "sourceId": "819507",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 7.99,
+      "stock": 6
+    },
+    {
+      "id": "ottawa-819493",
+      "sourceId": "819493",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 209.99,
+      "stock": 1
+    },
+    {
+      "id": "ottawa-817775",
+      "sourceId": "817775",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Magic: The Gathering",
+      "price": 49.99,
+      "stock": 2
+    },
+    {
+      "id": "ottawa-813490",
+      "sourceId": "813490",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 319.99,
+      "stock": 22
+    },
+    {
+      "id": "ottawa-797878",
+      "sourceId": "797878",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 4
+    },
+    {
+      "id": "ottawa-791727",
+      "sourceId": "791727",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 54
+    },
+    {
+      "id": "ottawa-791726",
+      "sourceId": "791726",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-791725",
+      "sourceId": "791725",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-779390",
+      "sourceId": "779390",
+      "store": "ottawa",
+      "source": "ottawa_inventory_Dragon_Ball_Z_CCG_Sealed.csv",
+      "game": "Dragon Ball",
+      "price": 14.99,
+      "stock": 17
+    },
+    {
+      "id": "ottawa-821034",
+      "sourceId": "821034",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Union Arena",
+      "price": 129.99,
+      "stock": 31
+    },
+    {
+      "id": "ottawa-820865",
+      "sourceId": "820865",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Union Arena",
+      "price": 249.99,
+      "stock": 3
+    },
+    {
+      "id": "ottawa-820513",
+      "sourceId": "820513",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Union Arena",
+      "price": 149.99,
+      "stock": 13
+    },
+    {
+      "id": "ottawa-820309",
+      "sourceId": "820309",
+      "store": "ottawa",
+      "source": "ottawa_inventory_TCG_Sealed_Product.csv",
+      "game": "Union Arena",
+      "price": 179.99,
+      "stock": 21
+    }
+  ]
+}
