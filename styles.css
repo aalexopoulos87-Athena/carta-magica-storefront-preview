@@ -289,3 +289,49 @@ html[data-theme="warm-gold"] .section-head{padding-bottom:15px;border-bottom:2px
   .game-tile:focus-visible img.game-logo,
   .game-tile.is-hover img.game-logo{transform:translateX(-50%)}
 }
+
+/* Few Good Finds: floating 3D product shots on the page, no black photo box */
+.finds-section{
+  background:transparent;
+}
+.finds-section .product-card{
+  background:transparent;
+  border-color:transparent;
+  box-shadow:none;
+}
+.finds-section .product-card:hover{
+  border-color:var(--gold-dark,#84601d);
+}
+html[data-theme] .finds-section .product-card:hover{
+  border-color:var(--accent-edge,var(--gold-dark,#84601d));
+}
+.finds-section .product-visual,
+.finds-section .product-visual.tone-1,
+.finds-section .product-visual.tone-2,
+.finds-section .product-visual.tone-3,
+.finds-section .product-visual.has-photo{
+  background:transparent;
+  height:340px;
+}
+.finds-section .product-visual:after,
+.finds-section .product-visual.has-photo:after{
+  display:none;
+}
+.finds-section .product-visual.has-photo .category-art,
+.finds-section .product-visual .category-art{
+  background:transparent;
+  object-fit:contain;
+  object-position:center;
+  padding:12px 10px 4px;
+}
+.finds-section .product-body{
+  background:transparent;
+}
+@media(max-width:1100px){
+  .finds-section .product-visual,
+  .finds-section .product-visual.has-photo{height:280px}
+}
+@media(max-width:760px){
+  .finds-section .product-visual,
+  .finds-section .product-visual.has-photo{height:220px}
+}
