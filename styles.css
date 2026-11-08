@@ -198,3 +198,94 @@ html[data-theme="warm-gold"] .section-head{padding-bottom:15px;border-bottom:2px
 @media(max-width:760px){
   .game-tile img.game-logo{width:min(88%,240px);bottom:18px;max-height:34%}
 }
+
+/* Hover effect on Find Your Game / Featured poster cells */
+.game-grid{padding:6px 2px 22px}
+.game-tile{
+  transition:transform .35s cubic-bezier(.22,.61,.36,1),box-shadow .35s ease,border-color .25s ease;
+}
+.game-tile:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:4;
+  pointer-events:none;
+  background:linear-gradient(115deg,transparent 28%,rgba(255,236,186,0) 40%,rgba(255,236,186,.34) 50%,rgba(255,255,255,.18) 56%,transparent 68%);
+  transform:translateX(-140%) skewX(-14deg);
+  transition:transform .7s ease;
+}
+.game-tile img.game-poster{
+  transition:transform .55s cubic-bezier(.22,.61,.36,1),filter .35s ease;
+}
+.game-tile img.game-logo{
+  transition:transform .35s ease,filter .35s ease;
+}
+.game-arrow{
+  transition:transform .35s ease,color .25s ease;
+}
+.game-tile:hover,
+.game-tile:focus-visible,
+.game-tile.is-hover{
+  transform:translateY(-8px);
+  border-color:var(--gold-bright,#dfaf48);
+  box-shadow:0 20px 36px #00000059,0 0 0 1px var(--gold-bright,#dfaf48),0 0 30px #c0903066;
+}
+.game-tile:hover:before,
+.game-tile:focus-visible:before,
+.game-tile.is-hover:before{
+  transform:translateX(140%) skewX(-14deg);
+}
+.game-tile:hover:after,
+.game-tile:focus-visible:after,
+.game-tile.is-hover:after{
+  background:linear-gradient(0deg,#000a 0%,#0005 32%,transparent 72%);
+}
+.game-tile:hover img.game-poster,
+.game-tile:focus-visible img.game-poster,
+.game-tile.is-hover img.game-poster{
+  transform:scale(1.08);
+  filter:brightness(1.08) saturate(1.08);
+}
+.game-tile:hover img.game-logo,
+.game-tile:focus-visible img.game-logo,
+.game-tile.is-hover img.game-logo{
+  transform:translateX(-50%) scale(1.06);
+  filter:drop-shadow(0 4px 16px #000c) drop-shadow(0 1px 2px #000a) drop-shadow(0 0 18px #f3d27a88);
+}
+.game-tile:hover .game-arrow,
+.game-tile:focus-visible .game-arrow,
+.game-tile.is-hover .game-arrow{
+  transform:translate(3px,-3px);
+  color:#f3d27a;
+}
+@media (hover:none){
+  .game-tile:hover{
+    transform:none;
+    box-shadow:none;
+    border-color:var(--accent-edge,#8b6725);
+  }
+  .game-tile:hover:before{transform:translateX(-140%) skewX(-14deg)}
+  .game-tile:hover img.game-poster{transform:none;filter:none}
+  .game-tile:hover img.game-logo{transform:translateX(-50%);filter:drop-shadow(0 4px 16px #000c) drop-shadow(0 1px 2px #000a)}
+  .game-tile:hover .game-arrow{transform:none;color:var(--hero-gold,#dfaf48)}
+  .game-tile:hover:after{background:linear-gradient(0deg,#000e 0%,#0009 38%,transparent 70%)}
+}
+@media (prefers-reduced-motion:reduce){
+  .game-tile,
+  .game-tile:before,
+  .game-tile img.game-poster,
+  .game-tile img.game-logo,
+  .game-arrow{transition:none}
+  .game-tile:hover,
+  .game-tile:focus-visible,
+  .game-tile.is-hover{transform:none}
+  .game-tile:hover:before,
+  .game-tile:focus-visible:before,
+  .game-tile.is-hover:before{transform:none;background:transparent}
+  .game-tile:hover img.game-poster,
+  .game-tile:focus-visible img.game-poster,
+  .game-tile.is-hover img.game-poster{transform:none}
+  .game-tile:hover img.game-logo,
+  .game-tile:focus-visible img.game-logo,
+  .game-tile.is-hover img.game-logo{transform:translateX(-50%)}
+}
