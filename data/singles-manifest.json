@@ -1,0 +1,268 @@
+{
+  "source": "Carta Magica Montreal Crystal Commerce export, 8 November 2026",
+  "store": "montreal",
+  "total": 169489,
+  "inStock": 58955,
+  "games": [
+    {
+      "slug": "yugioh",
+      "game": "Yu-Gi-Oh!",
+      "label": "Yu-Gi-Oh! Singles",
+      "labelFr": "Carte à l'unité Yu-Gi-Oh",
+      "file": "data/singles/yugioh.json",
+      "count": 53779,
+      "inStock": 25496,
+      "sets": 493,
+      "topSets": [
+        {
+          "name": "Quarter Century Stampede",
+          "count": 996
+        },
+        {
+          "name": "Quarter Century Bonanza",
+          "count": 974
+        },
+        {
+          "name": "Battle Pack 3: Monster League",
+          "count": 914
+        },
+        {
+          "name": "Battle Pack: Epic Dawn",
+          "count": 880
+        },
+        {
+          "name": "Battle Pack 2: War of the Giants",
+          "count": 855
+        },
+        {
+          "name": "Rarity Collection 5",
+          "count": 697
+        },
+        {
+          "name": "Legendary Collection 3: Yugi's World",
+          "count": 626
+        },
+        {
+          "name": "25th Anniversary Rarity Collection 2",
+          "count": 567
+        }
+      ]
+    },
+    {
+      "slug": "pokemon",
+      "game": "Pokémon",
+      "label": "Pokémon Singles",
+      "labelFr": "Carte à l'unité Pokémon",
+      "file": "data/singles/pokemon.json",
+      "count": 37612,
+      "inStock": 6195,
+      "sets": 151,
+      "topSets": [
+        {
+          "name": "Pokemon Promos",
+          "count": 1972
+        },
+        {
+          "name": "Ascended Heroes",
+          "count": 613
+        },
+        {
+          "name": "Fusion Strike",
+          "count": 504
+        },
+        {
+          "name": "Sun & Moon: Cosmic Eclipse",
+          "count": 470
+        },
+        {
+          "name": "Scarlet & Violet: Paldea Evolved",
+          "count": 457
+        },
+        {
+          "name": "Sun & Moon: Unified Minds",
+          "count": 455
+        },
+        {
+          "name": "Scarlet & Violet Base Set",
+          "count": 453
+        },
+        {
+          "name": "Prismatic Evolutions",
+          "count": 448
+        }
+      ]
+    },
+    {
+      "slug": "one-piece",
+      "game": "One Piece",
+      "label": "One Piece Singles",
+      "labelFr": "Carte à l'unité One Piece",
+      "file": "data/singles/one-piece.json",
+      "count": 6138,
+      "inStock": 1225,
+      "sets": 39,
+      "topSets": [
+        {
+          "name": "One Piece TCG Promos",
+          "count": 1280
+        },
+        {
+          "name": "One Piece TCG Prerelease Promos",
+          "count": 690
+        },
+        {
+          "name": "Premium Booster - The Best Vol 2",
+          "count": 408
+        },
+        {
+          "name": "One Piece Premium Booster",
+          "count": 353
+        },
+        {
+          "name": "OP-11 A Fist of Divine Speed",
+          "count": 235
+        },
+        {
+          "name": "OP-14 / EB-04 - The Azure Seas Seven",
+          "count": 211
+        },
+        {
+          "name": "OP-15/EB-04 - Adventure On Kami’s Island",
+          "count": 206
+        },
+        {
+          "name": "OP-13 Carrying on his Will",
+          "count": 177
+        }
+      ]
+    },
+    {
+      "slug": "digimon",
+      "game": "Digimon",
+      "label": "Digimon Card Game Singles",
+      "labelFr": "Jeu de cartes Digimon à l'unité",
+      "file": "data/singles/digimon.json",
+      "count": 4854,
+      "inStock": 2018,
+      "sets": 43,
+      "topSets": [
+        {
+          "name": "Cartes Promotionnelles Digimon // Digimon Promotional Cards",
+          "count": 834
+        },
+        {
+          "name": "Digimon Version Spéciale Ver 1.0 // Digimon Release Special Ver 1.0",
+          "count": 248
+        },
+        {
+          "name": "BT11 - Phase Dimensionnelle // BT11 - Dimensional Phase",
+          "count": 228
+        },
+        {
+          "name": "BT6 : Double Diamant // BT6: Double Diamond",
+          "count": 204
+        },
+        {
+          "name": "BT15 – Dépasser l’Apocalypse // BT15 - Exceed Apocalypse",
+          "count": 202
+        },
+        {
+          "name": "BT16 – Observateur débutant // BT16 - Beginning Observer",
+          "count": 199
+        },
+        {
+          "name": "Limited Card Pack",
+          "count": 197
+        },
+        {
+          "name": "BT7 : Prochaine Aventure // BT7: Next Adventure",
+          "count": 156
+        }
+      ]
+    },
+    {
+      "slug": "union-arena",
+      "game": "Union Arena",
+      "label": "Union Arena Singles",
+      "labelFr": "Carte à l'unité Union Arena",
+      "file": "data/singles/union-arena.json",
+      "count": 666,
+      "inStock": 90,
+      "sets": 5,
+      "topSets": [
+        {
+          "name": "Union Arena Starter Decks",
+          "count": 182
+        },
+        {
+          "name": "KAGURABACHI",
+          "count": 139
+        },
+        {
+          "name": "Jujutsu Kaisen Vol.2",
+          "count": 130
+        },
+        {
+          "name": "BLEACH: Thousand-Year Blood War Vol.2",
+          "count": 108
+        },
+        {
+          "name": "Attack on Titan Vol. 2",
+          "count": 107
+        }
+      ]
+    },
+    {
+      "slug": "magic",
+      "game": "Magic: The Gathering",
+      "label": "Magic Singles",
+      "labelFr": "Carte de Magic à l'unité",
+      "file": "data/singles/magic.json",
+      "count": 66440,
+      "inStock": 23931,
+      "sets": 213,
+      "topSets": [
+        {
+          "name": "Ikoria: Lair of Behemoths",
+          "count": 1001
+        },
+        {
+          "name": "Pre-Release Promos",
+          "count": 900
+        },
+        {
+          "name": "Marvel Super Heroes",
+          "count": 895
+        },
+        {
+          "name": "Double Masters",
+          "count": 879
+        },
+        {
+          "name": "Zendikar Rising",
+          "count": 864
+        },
+        {
+          "name": "Throne of Eldraine",
+          "count": 769
+        },
+        {
+          "name": "10th Edition",
+          "count": 767
+        },
+        {
+          "name": "9th Edition",
+          "count": 718
+        }
+      ]
+    }
+  ],
+  "excludedFromTcgSinglesMenu": {
+    "Force of Will": 5028,
+    "other": 6521,
+    "Star Wars Destiny": 828,
+    "Dragon Ball Super": 2173,
+    "Flesh & Blood": 867,
+    "My Hero Academia": 364
+  }
+}
