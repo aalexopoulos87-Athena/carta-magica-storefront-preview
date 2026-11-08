@@ -335,3 +335,45 @@ html[data-theme] .finds-section .product-card:hover{
   .finds-section .product-visual,
   .finds-section .product-visual.has-photo{height:220px}
 }
+
+/* Site-wide: product photos float on white (Find Your Game gold-border tiles stay) */
+.product-visual,
+.product-visual.tone-1,
+.product-visual.tone-2,
+.product-visual.tone-3,
+.product-visual.has-photo,
+.product-detail .product-visual,
+.product-detail .product-visual.has-photo{
+  background:#fff;
+}
+.product-visual:after,
+.product-visual.has-photo:after{
+  display:none;
+}
+.product-visual .category-art,
+.product-visual.has-photo .category-art{
+  background:transparent;
+  object-fit:contain;
+  object-position:center;
+  padding:12px 10px 6px;
+}
+.product-visual.is-card,
+.product-visual.is-card.tone-1,
+.product-visual.is-card.tone-2,
+.product-visual.is-card.tone-3,
+.product-detail .product-visual.is-card{
+  background:#fff;
+}
+.product-visual.is-card .category-art{
+  background:transparent;
+}
+.product-visual:not(.has-photo):not(.is-card) .visual-game{
+  color:#1a140c;
+  text-shadow:none;
+}
+.product-visual:not(.has-photo):not(.is-card) .placeholder-label{
+  color:#6a5a3c;
+}
+.hero-showcase img{
+  background:#fff;
+}
