@@ -159,3 +159,42 @@ html[data-theme="warm-gold"] .section-head{padding-bottom:15px;border-bottom:2px
 .product-detail .product-visual.is-card .placeholder-label{display:block;position:static;margin:10px 16px 0;color:#6a5a3c}
 
 .category-nav a{flex:0 0 auto}
+
+
+/* Official TCG logos on Find Your Game / featured poster tiles */
+.game-tile img.game-poster{
+  display:block;
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+  transition:transform .25s ease;
+}
+.game-tile:hover img.game-poster{transform:scale(1.035)}
+.game-tile:hover img.game-logo{transform:translateX(-50%)}
+.game-tile img.game-logo{
+  display:block;
+  position:absolute;
+  inset:auto;
+  left:50%;
+  bottom:28px;
+  width:min(82%, 340px);
+  max-height:38%;
+  height:auto;
+  object-fit:contain;
+  object-position:center;
+  transform:translateX(-50%);
+  z-index:2;
+  pointer-events:none;
+  filter:drop-shadow(0 4px 16px #000c) drop-shadow(0 1px 2px #000a);
+}
+.game-tile:after{background:linear-gradient(0deg,#000e 0%,#0009 38%,transparent 70%)}
+.game-arrow{z-index:3}
+@media(max-width:1100px){
+  .game-tile img.game-logo{width:min(86%,280px);bottom:22px;max-height:36%}
+}
+@media(max-width:760px){
+  .game-tile img.game-logo{width:min(88%,240px);bottom:18px;max-height:34%}
+}
