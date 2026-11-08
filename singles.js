@@ -27,6 +27,7 @@
       store: 'montreal',
       sg: meta.slug
     };
+    if (raw.u) p.image = raw.u;
     cache.byId.set(id, p);
     return p;
   }

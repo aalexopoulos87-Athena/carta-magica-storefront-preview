@@ -594,7 +594,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-alliances/ashnods_cylix/1",
     "store": "montreal",
-    "image": "assets/products/montreal-1.webp",
+    "image": "https://cards.scryfall.io/normal/front/d/8/d84e6fcf-4745-4dfb-9103-17beec4e45b6.jpg",
     "banner": "assets/banners/montreal-1.webp"
   },
   {
@@ -614,7 +614,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-ice_age/demonic_consultation/413",
     "store": "montreal",
-    "image": "assets/products/montreal-413.webp",
+    "image": "https://cards.scryfall.io/normal/front/8/d/8d727b9b-6114-414d-9172-16b6e1db41cc.jpg",
     "banner": "assets/banners/montreal-413.webp"
   },
   {
@@ -634,7 +634,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-alliances/diminishing_returns/43",
     "store": "montreal",
-    "image": "assets/products/montreal-43.webp",
+    "image": "https://cards.scryfall.io/normal/front/a/3/a375ec24-4841-4792-ad58-f29cdf0d1bbb.jpg",
     "banner": "assets/banners/montreal-43.webp"
   },
   {
@@ -654,7 +654,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-alliances/kjeldoran_outpost/117",
     "store": "montreal",
-    "image": "assets/products/montreal-117.webp",
+    "image": "https://cards.scryfall.io/normal/front/e/0/e0769fc7-50b5-4b49-8aff-af04536288fb.jpg",
     "banner": "assets/banners/montreal-117.webp"
   },
   {
@@ -674,7 +674,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-alliances/limduls_vault/135",
     "store": "montreal",
-    "image": "assets/products/montreal-135.webp",
+    "image": "https://cards.scryfall.io/normal/front/f/9/f9b0164c-2d4e-48ab-addd-322d9b504739.jpg",
     "banner": "assets/banners/montreal-135.webp"
   },
   {
@@ -795,7 +795,7 @@ window.CARTA_CATALOG = [
     "language": null,
     "originalUrl": "http://cartamagica.crystalcommerce.com/catalog/cartes_a_lunit__tcg_singles-magic_singles-ice_age_block-alliances/storm_cauldron/231",
     "store": "montreal",
-    "image": "assets/products/montreal-231.webp",
+    "image": "https://cards.scryfall.io/normal/front/1/f/1f68b531-a3f2-4830-b170-fb8a1195c149.jpg",
     "banner": "assets/banners/montreal-231.webp"
   },
   {
