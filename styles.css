@@ -84,3 +84,78 @@ html[data-theme="warm-gold"] .section-head{padding-bottom:15px;border-bottom:2px
 .pager-status{font-size:.9rem}
 .pager-disabled{opacity:.4;font-size:.85rem}
 @media(max-width:800px){.singles-hub{grid-template-columns:1fr}}
+
+
+/* Transparent singles cards + light tiles (no black boxes) */
+.product-visual.is-card,
+.product-visual.is-card.tone-1,
+.product-visual.is-card.tone-2,
+.product-visual.is-card.tone-3,
+.product-detail .product-visual.is-card{
+  background:#f6efe2;
+}
+.product-visual.is-card:after{display:none}
+.product-visual.is-card .category-art{
+  position:relative;
+  inset:auto;
+  width:auto;
+  max-width:68%;
+  height:88%;
+  object-fit:contain;
+  object-position:center;
+  padding:0;
+  background:transparent;
+  filter:drop-shadow(0 12px 20px rgba(70,45,10,.16));
+}
+.product-visual.is-card .product-kind{
+  background:#fffdf8ee;
+  color:#6b4e16;
+  border-color:#c7b18b;
+}
+.product-visual.is-card .placeholder-label{
+  color:#6a5a3c;
+  text-align:center;
+  left:16px;
+  right:16px;
+}
+.singles-cat{
+  background:linear-gradient(180deg,#fffef9,#f4ead6);
+  color:#1a140c;
+  border:1px solid #c7b18b;
+}
+.singles-cat strong{color:#1a140c}
+.singles-cat span{color:#5c4d34}
+.singles-cat:hover{border-color:var(--gold,#C09030);background:#fffdf8}
+.store-graphic{background-image:linear-gradient(90deg,#0b0b0bf2,#0b0b0b99),url('assets/carta-cardback.png')}
+
+/* Find your game: full poster tiles with prominent names */
+.game-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.game-tile{min-height:440px;background:#1a140c}
+.game-tile:first-child{grid-column:auto}
+.game-tile img{object-position:center top}
+.game-tile:after{background:linear-gradient(0deg,#000d 0%,#0007 34%,transparent 68%)}
+.game-name{font-size:clamp(1.35rem,2.1vw,1.9rem);font-weight:780;letter-spacing:-.03em;bottom:22px;left:22px;right:42px;line-height:1.12;text-shadow:0 2px 16px #000c}
+.game-arrow{bottom:26px;right:18px;font-size:24px}
+.publisher-label{font-size:.7rem;letter-spacing:.16em;margin-bottom:8px}
+.featured-plain{background:linear-gradient(180deg,#2a2114,#120e09);min-height:220px}
+.featured-plain .game-name{position:absolute}
+.page-form{max-width:560px}
+.page-form textarea{display:block;width:100%;margin-top:7px;padding:10px 8px;background:var(--area-bg,#f6f6f6);border:1px solid var(--edge,#d5d5d5);border-radius:9px;color:inherit;min-height:120px}
+.page-form input[type=text],.page-form input[type=email],.page-form input:not([type]){display:block;width:100%;margin-top:7px;padding:10px 8px;background:var(--area-bg,#f6f6f6);border:1px solid var(--edge,#d5d5d5);border-radius:9px}
+.cart-page{max-width:760px}
+@media(max-width:1100px){
+  .game-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .game-tile{min-height:340px}
+  .game-tile:first-child{grid-column:auto;min-height:340px}
+  .game-name{font-size:1.25rem;left:16px;bottom:18px}
+}
+@media(max-width:760px){
+  .game-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .game-tile,.game-tile:first-child{min-height:280px}
+  .game-name{font-size:1.12rem;left:14px;bottom:16px;right:32px}
+}
+
+.product-visual.is-card .placeholder-label{display:none}
+.product-detail .product-visual.is-card .placeholder-label{display:block;position:static;margin:10px 16px 0;color:#6a5a3c}
+
+.category-nav a{flex:0 0 auto}
