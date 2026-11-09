@@ -393,14 +393,14 @@ html[data-theme] .finds-section .product-card:hover{
   .product-card:hover .product-visual .category-art,.product-card:hover .product-visual .single-art,.product-card:focus-within:has(:focus-visible) .product-visual .category-art,.product-card:focus-within:has(:focus-visible) .product-visual .single-art{transform:none}
   .product-card:hover .product-visual .pack-art,.product-card:focus-within:has(:focus-visible) .product-visual .pack-art{transform:rotate(-8deg)}
 }
-/* TCG Singles hub: poster art cells matching Find Your Game (9 Nov 2026) */
-.singles-hub .singles-cat-tile{min-height:0;aspect-ratio:4/3;padding:0}
-.singles-hub .singles-cat-tile img.game-poster{object-position:center 22%}
-.singles-hub .singles-cat-tile img.game-logo{bottom:74px;width:min(62%,250px);max-height:34%}
-.singles-hub .singles-cat-tile:after{background:linear-gradient(0deg,#000f 0%,#000c 26%,#0006 48%,transparent 72%)}
-.singles-cat-info{position:absolute;left:18px;right:44px;bottom:16px;z-index:3;display:flex;flex-direction:column;gap:3px;text-align:left;pointer-events:none}
-.singles-cat-info strong{color:#fff;font-size:1.05rem;font-weight:720;line-height:1.2;letter-spacing:-.02em;text-shadow:0 2px 8px #000}
-.singles-cat-info span{color:var(--gold-bright,#dfaf48);font-size:.78rem;font-weight:600;line-height:1.35;text-shadow:0 1px 6px #000}
-@media(max-width:760px){.singles-hub .singles-cat-tile img.game-logo{bottom:66px}}
-@media(max-width:1100px){.game-grid.singles-hub{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.game-grid.singles-hub{grid-template-columns:1fr}.singles-hub .singles-cat-tile{aspect-ratio:16/10}.singles-hub .singles-cat-tile img.game-logo{bottom:70px;width:min(58%,220px)}}
+/* TCG Singles hub: original cream cells with a character on the right (9 Nov 2026) */
+.singles-hub{padding-top:22px}
+.game-grid.singles-hub{row-gap:36px}
+.singles-cat{position:relative;overflow:visible;isolation:isolate}
+.singles-cat.has-char{padding-right:44%}
+.singles-cat.has-char strong,.singles-cat.has-char span{position:relative;z-index:1}
+.singles-char{position:absolute;right:10px;bottom:0;height:calc(100% + 24px);max-height:190px;max-width:40%;width:auto;object-fit:contain;object-position:right bottom;z-index:0;pointer-events:none;transform-origin:right bottom;transition:transform .2s ease,filter .2s ease;filter:drop-shadow(0 6px 10px rgba(0,0,0,.18))}
+.singles-cat:hover .singles-char,.singles-cat:focus-visible .singles-char{transform:scale(1.06);filter:drop-shadow(0 8px 14px rgba(120,84,20,.3))}
+@media (prefers-reduced-motion:reduce){.singles-cat:hover .singles-char,.singles-cat:focus-visible .singles-char{transform:none}}
+@media(max-width:1100px){.game-grid.singles-hub{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:30px}}
+@media(max-width:760px){.game-grid.singles-hub{grid-template-columns:1fr;row-gap:30px}.singles-cat.has-char{padding-right:40%;min-height:140px}.singles-char{max-height:170px}}
