@@ -485,3 +485,4 @@ html[data-theme] .finds-section .product-card:hover{
 .ev-card.has-char .ev-body{padding-right:37%}
 .ev-card .ev-char{right:-18px;max-width:35%}
 @media(max-width:560px){.ev-card.has-char .ev-body{padding-right:16px}.ev-card .ev-char{right:-6px;max-width:38%}}
+@media(min-width:901px){.ev-hero.has-char .ev-hero-copy{padding-right:calc(32% + 24px)}.ev-hero-char{right:236px;max-width:30%;height:calc(100% + 56px)}}
