@@ -1,10 +1,70 @@
 {
-  "source": "Carta Magica Ottawa Crystal Commerce Pokémon Singles export #48 (completed ~8 November 2026)",
+  "source": "Carta Magica Ottawa Crystal Commerce stock: Pokémon Singles #48 and Yu-Gi-Oh! Singles #52 (~8–10 November 2026)",
   "store": "ottawa",
-  "total": 38435,
-  "inStock": 8113,
-  "inStockQty": 212662,
+  "total": 92071,
+  "inStock": 14627,
+  "inStockQty": 269881,
   "games": [
+    {
+      "slug": "yugioh",
+      "game": "Yu-Gi-Oh!",
+      "label": "Yu-Gi-Oh! Singles",
+      "labelFr": "Carte à l'unité Yu-Gi-Oh",
+      "file": "data/ottawa-singles/yugioh.json",
+      "count": 53636,
+      "inStock": 6514,
+      "sets": 518,
+      "topSets": [
+        {
+          "name": "Quarter Century Stampede",
+          "count": 996
+        },
+        {
+          "name": "Quarter Century Bonanza",
+          "count": 965
+        },
+        {
+          "name": "Battle Pack 2: War of the Giants",
+          "count": 959
+        },
+        {
+          "name": "Battle Pack: Epic Dawn",
+          "count": 880
+        },
+        {
+          "name": "Legendary Collection 3: Yugi's World",
+          "count": 628
+        },
+        {
+          "name": "Rarity Collection 5",
+          "count": 625
+        },
+        {
+          "name": "25th Anniversary Rarity Collection 2",
+          "count": 567
+        },
+        {
+          "name": "25th Anniversary Rarity Collection",
+          "count": 567
+        },
+        {
+          "name": "Legendary Collection 2: GX",
+          "count": 558
+        },
+        {
+          "name": "Legendary Collection 5D's",
+          "count": 545
+        },
+        {
+          "name": "2019 Gold Sarcophagus Tin",
+          "count": 514
+        },
+        {
+          "name": "Battle Pack 3: Monster League",
+          "count": 501
+        }
+      ]
+    },
     {
       "slug": "pokemon",
       "game": "Pokémon",
@@ -67,7 +127,6 @@
     }
   ],
   "pendingGames": [
-    "Yu-Gi-Oh!",
     "Magic: The Gathering",
     "One Piece",
     "Digimon",
