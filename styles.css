@@ -465,3 +465,23 @@ html[data-theme] .finds-section .product-card:hover{
 @media (prefers-reduced-motion:reduce){.ev-card,.ev-char{transition:box-shadow .2s ease,border-color .2s ease}.ev-card:hover,.ev-card:focus-within{transform:none}.ev-card:hover .ev-char{transform:none}}
 @media(max-width:900px){.ev-list{grid-template-columns:1fr}.ev-hero{grid-template-columns:1fr}.ev-hero-stub{flex-direction:row;border-left:0;border-top:2px dashed rgba(223,175,72,.55)}.ev-hero-stub .ev-stub{width:110px}.ev-hero-stub .ev-day{font-size:2.6rem}}
 @media(max-width:560px){.ev-hero-copy{padding:26px 22px}.ev-hero-logo{height:56px}.ev-stub{flex-basis:70px}.ev-day{font-size:2rem}.ev-body{padding:16px}.ev-card.has-char .ev-body{padding-right:16px}.ev-char{display:none}.ev-meta div{grid-template-columns:1fr;gap:1px}}
+/* Event action characters (9 Nov 2026) */
+.ev-card{overflow:visible}
+.ev-stub{border-radius:16px 0 0 16px}
+.ev-card.has-char .ev-body{padding-right:32%}
+.ev-card .ev-char{right:-10px;bottom:0;height:calc(100% + 34px);max-height:330px;max-width:36%;z-index:2;filter:drop-shadow(0 0 1.5px rgba(240,200,110,.95)) drop-shadow(0 0 10px rgba(223,175,72,.45)) drop-shadow(0 10px 14px rgba(0,0,0,.55));transition:transform .25s cubic-bezier(.22,.61,.36,1),filter .25s ease}
+.ev-card:hover .ev-char,.ev-card:focus-within .ev-char{transform:translate(-6px,-8px) rotate(-2deg) scale(1.07);filter:drop-shadow(0 0 2px rgba(255,214,120,1)) drop-shadow(0 0 16px rgba(223,175,72,.7)) drop-shadow(0 12px 16px rgba(0,0,0,.55))}
+.ev-list{row-gap:44px;padding-top:24px}
+.ev-hero{overflow:visible;margin-top:40px}
+.ev-hero:before{border-radius:20px}
+.ev-hero-stub{border-radius:0 20px 20px 0}
+.ev-hero.has-char .ev-hero-copy{padding-right:36%}
+.ev-hero-char{position:absolute;z-index:3;right:250px;bottom:0;height:calc(100% + 50px);max-height:520px;max-width:36%;object-fit:contain;object-position:right bottom;pointer-events:none;filter:drop-shadow(0 0 2px rgba(240,200,110,.95)) drop-shadow(0 0 18px rgba(223,175,72,.5)) drop-shadow(0 14px 18px rgba(0,0,0,.55));animation:evFloat 4.5s ease-in-out infinite}
+.ev-hero:hover .ev-hero-char{animation-duration:2.2s}
+@keyframes evFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion:reduce){.ev-hero-char{animation:none}.ev-card:hover .ev-char,.ev-card:focus-within .ev-char{transform:none}}
+@media(max-width:900px){.ev-hero-char{right:12px;bottom:auto;top:-36px;height:200px;max-width:44%}.ev-hero.has-char .ev-hero-copy{padding-right:40px;padding-top:150px}}
+@media(max-width:560px){.ev-card .ev-char{display:block;top:-28px;bottom:auto;right:-4px;height:118px;max-width:38%}.ev-card.has-char .ev-body{padding-right:16px;padding-top:86px}.ev-hero-char{height:170px;top:-30px}.ev-hero.has-char .ev-hero-copy{padding-top:120px}.ev-list{row-gap:40px}}
+.ev-card.has-char .ev-body{padding-right:37%}
+.ev-card .ev-char{right:-18px;max-width:35%}
+@media(max-width:560px){.ev-card.has-char .ev-body{padding-right:16px}.ev-card .ev-char{right:-6px;max-width:38%}}

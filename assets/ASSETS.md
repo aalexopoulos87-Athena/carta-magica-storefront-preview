@@ -35,3 +35,14 @@ Both are optimized local WebP category illustrations, not licensed product photo
 
 ## Events page (9 Nov 2026)
 - `events/logo-riftbound.png` (official Riftbound logo, riftbound.gg), `events/logo-grandarchive.png` (official Grand Archive logo, gatcg.com), `events/logo-onepiece.png` and `events/logo-lorcana.png` (trimmed copies of the official logos in `logos/`). The Luffy figure on the One Piece event reuses the preview illustration `singles/onepiece.webp`.
+
+## Events page action characters (preview illustrations)
+
+`assets/events/char-*.webp`: hand-painted fan-style preview illustrations made for this preview with an image generator, using official character art as reference. Backgrounds were removed for the cut-out effect. These are not official artwork, so replace them with licensed key art before production.
+
+- `char-jinx.webp`: Jinx (League of Legends), on the Riftbound Nexus Night card and the next-event hero
+- `char-lorraine.webp`: Lorraine (Grand Archive), on the Grand Archive Regional card
+- `char-luffy.webp`: Monkey D. Luffy, Gum-Gum Pistol (One Piece), on the One Piece Regional Championship card
+- `char-mickey.webp`: Sorcerer's Apprentice Mickey (Disney Lorcana), on the Sunday Weekly Lorcana card for 13 Dec
+- `char-elsa.webp`: Elsa casting ice (Disney Lorcana), on the Sunday Weekly Lorcana card for 20 Dec
+- `char-stitch.webp`: Stitch (Disney Lorcana), on the Sunday Weekly Lorcana card for 27 Dec
