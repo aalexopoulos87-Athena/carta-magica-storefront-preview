@@ -205,3 +205,6 @@ document.addEventListener('click',e=>{const addButton=e.target.closest('[data-ad
 function render(){document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;syncURL();header();({home,collection,product,about,contact,cartpage,checkout,events,policies,privacy,buylist,search,account,locations,featured}[page]||home)();footer();}
 render();
 })();
+
+/* Make the whole product tile clickable (hover effect shows it as one target). */
+document.addEventListener('click',e=>{const c=e.target.closest('.product-card');if(!c||e.target.closest('a,button,input,select,label,form'))return;const a=c.querySelector('a[href]');if(a){if(e.metaKey||e.ctrlKey)window.open(a.href,'_blank');else location.href=a.href;}});

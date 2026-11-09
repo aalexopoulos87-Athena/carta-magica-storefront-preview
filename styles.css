@@ -377,3 +377,19 @@ html[data-theme] .finds-section .product-card:hover{
 .hero-showcase img{
   background:#fff;
 }
+/* Product tile hover/focus (9 Nov 2026): lift, gold glow, image zoom inside the clipped frame */
+.product-card,.singles-cat{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background-color .2s ease;cursor:pointer}
+.product-visual{overflow:hidden}
+.product-visual .category-art,.product-visual .pack-art,.product-visual .single-art{transition:transform .2s ease}
+.product-card:hover,.product-card:focus-within:has(:focus-visible),
+.singles-cat:hover,.singles-cat:focus-visible{transform:translateY(-4px);border-color:var(--gold,#c09030)!important;box-shadow:0 0 0 1px var(--gold,#c09030),0 12px 28px rgba(192,144,48,.28),0 4px 10px rgba(0,0,0,.12)}
+.product-card:hover .product-visual .category-art,.product-card:focus-within:has(:focus-visible) .product-visual .category-art{transform:scale(1.05)}
+.product-card:hover .product-visual .pack-art,.product-card:focus-within:has(:focus-visible) .product-visual .pack-art{transform:rotate(-8deg) scale(1.05)}
+.product-card:hover .product-visual .single-art,.product-card:focus-within:has(:focus-visible) .product-visual .single-art{transform:scale(1.05)}
+.singles-cat:focus-visible{outline:none}
+@media (prefers-reduced-motion:reduce){
+  .product-card,.singles-cat,.product-visual .category-art,.product-visual .pack-art,.product-visual .single-art{transition:box-shadow .2s ease,border-color .2s ease}
+  .product-card:hover,.product-card:focus-within:has(:focus-visible),.singles-cat:hover,.singles-cat:focus-visible{transform:none}
+  .product-card:hover .product-visual .category-art,.product-card:hover .product-visual .single-art,.product-card:focus-within:has(:focus-visible) .product-visual .category-art,.product-card:focus-within:has(:focus-visible) .product-visual .single-art{transform:none}
+  .product-card:hover .product-visual .pack-art,.product-card:focus-within:has(:focus-visible) .product-visual .pack-art{transform:rotate(-8deg)}
+}
