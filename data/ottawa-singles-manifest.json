@@ -1,0 +1,78 @@
+{
+  "source": "Carta Magica Ottawa Crystal Commerce Pokémon Singles export #48 (completed ~8 November 2026)",
+  "store": "ottawa",
+  "total": 38435,
+  "inStock": 8113,
+  "inStockQty": 212662,
+  "games": [
+    {
+      "slug": "pokemon",
+      "game": "Pokémon",
+      "label": "Pokémon Singles",
+      "labelFr": "Carte à l'unité Pokémon",
+      "file": "data/ottawa-singles/pokemon.json",
+      "count": 38435,
+      "inStock": 8113,
+      "sets": 162,
+      "topSets": [
+        {
+          "name": "Pokemon Promos",
+          "count": 2236
+        },
+        {
+          "name": "Fusion Strike",
+          "count": 501
+        },
+        {
+          "name": "Mega Evolution - Ascended Heroes",
+          "count": 484
+        },
+        {
+          "name": "Scarlet & Violet - Base Set",
+          "count": 460
+        },
+        {
+          "name": "Scarlet & Violet - Paldea Evolved",
+          "count": 455
+        },
+        {
+          "name": "Unified Minds",
+          "count": 454
+        },
+        {
+          "name": "Scarlet & Violet - Prismatic Evolution",
+          "count": 447
+        },
+        {
+          "name": "Scarlet & Violet - Paradox Rift",
+          "count": 428
+        },
+        {
+          "name": "Scarlet & Violet - Destined Rivals",
+          "count": 417
+        },
+        {
+          "name": "Surging Sparks",
+          "count": 417
+        },
+        {
+          "name": "Lost Thunder",
+          "count": 411
+        },
+        {
+          "name": "Unbroken Bonds",
+          "count": 410
+        }
+      ]
+    }
+  ],
+  "pendingGames": [
+    "Yu-Gi-Oh!",
+    "Magic: The Gathering",
+    "One Piece",
+    "Digimon",
+    "Union Arena",
+    "Flesh & Blood",
+    "other TCG singles"
+  ]
+}

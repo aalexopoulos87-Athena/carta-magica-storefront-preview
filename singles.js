@@ -1,41 +1,74 @@
-/* Montreal TCG singles loaded on demand from the 8 November 2026 export.
-   Same-origin JSON only — no live Crystal Commerce or admin requests. */
+/* TCG singles loaded on demand from Crystal Commerce export snapshots.
+   Same-origin JSON only — no live Crystal Commerce or admin requests.
+   Montreal: full six-game menu. Ottawa: Pokémon Singles so far (#48). */
 (function (root) {
   'use strict';
-  var cache = { manifest: null, games: {}, byId: new Map() };
+  var caches = {
+    montreal: { manifest: null, games: {}, byId: new Map() },
+    ottawa: { manifest: null, games: {}, byId: new Map() }
+  };
 
-  function inflate(raw, meta) {
+  function storeKey(store) {
+    return store === 'ottawa' ? 'ottawa' : 'montreal';
+  }
+
+  function manifestUrl(store) {
+    return storeKey(store) === 'ottawa'
+      ? 'data/ottawa-singles-manifest.json'
+      : 'data/singles-manifest.json';
+  }
+
+  function sourceMeta(store) {
+    if (storeKey(store) === 'ottawa') {
+      return {
+        source: 'crystal-commerce-ottawa-pokemon-export-48',
+        sourceName: 'Carta Magica Ottawa Pokémon Singles export #48, ~8 November 2026',
+        prefix: 'ottawa-'
+      };
+    }
+    return {
+      source: 'crystal-commerce-montreal-export-2026-11-08',
+      sourceName: 'Carta Magica Montreal inventory export, 8 November 2026',
+      prefix: 'montreal-'
+    };
+  }
+
+  function inflate(raw, meta, store) {
     var name = raw.n || '';
     var nameFr = raw.nf || name;
-    var id = 'montreal-' + raw.i;
+    var sk = storeKey(store);
+    var src = sourceMeta(sk);
+    var id = src.prefix + raw.i;
     var p = {
       id: id,
       sourceId: String(raw.i),
-      source: 'crystal-commerce-montreal-export-2026-11-08',
-      sourceName: 'Carta Magica Montreal inventory export, 8 November 2026',
+      source: src.source,
+      sourceName: src.sourceName,
       name: name,
       nameFr: nameFr,
       category: raw.c || '',
       price: Number(raw.p) || 0,
       stock: Number(raw.s) || 0,
-      location: 'montreal',
+      location: sk,
       kind: 'singles',
       game: meta.game,
       condition: '',
       language: '',
       originalUrl: '',
-      store: 'montreal',
+      store: sk,
       sg: meta.slug
     };
     if (raw.u) p.image = raw.u;
-    cache.byId.set(id, p);
+    caches[sk].byId.set(id, p);
     return p;
   }
 
-  function loadManifest() {
+  function loadManifest(store) {
+    var sk = storeKey(store);
+    var cache = caches[sk];
     if (cache.manifest) return Promise.resolve(cache.manifest);
-    return fetch('data/singles-manifest.json').then(function (res) {
-      if (!res.ok) throw new Error('singles manifest ' + res.status);
+    return fetch(manifestUrl(sk)).then(function (res) {
+      if (!res.ok) throw new Error('singles manifest ' + sk + ' ' + res.status);
       return res.json();
     }).then(function (data) {
       cache.manifest = data;
@@ -43,43 +76,54 @@
     });
   }
 
-  function loadGame(slug) {
-    if (cache.games[slug]) return Promise.resolve(cache.games[slug]);
-    return loadManifest().then(function (manifest) {
+  function loadGame(slug, store) {
+    var sk = storeKey(store);
+    var cache = caches[sk];
+    var key = slug;
+    if (cache.games[key]) return Promise.resolve(cache.games[key]);
+    return loadManifest(sk).then(function (manifest) {
       var meta = (manifest.games || []).find(function (g) { return g.slug === slug; });
       if (!meta) return [];
       return fetch(meta.file).then(function (res) {
-        if (!res.ok) throw new Error('singles ' + slug + ' ' + res.status);
+        if (!res.ok) throw new Error('singles ' + sk + ' ' + slug + ' ' + res.status);
         return res.json();
       }).then(function (raw) {
-        var items = raw.map(function (r) { return inflate(r, meta); });
-        cache.games[slug] = items;
+        var items = raw.map(function (r) { return inflate(r, meta, sk); });
+        cache.games[key] = items;
         return items;
       });
     });
   }
 
-  function loadAllGames() {
-    return loadManifest().then(function (manifest) {
-      return Promise.all((manifest.games || []).map(function (g) { return loadGame(g.slug); }));
+  function loadAllGames(store) {
+    var sk = storeKey(store);
+    return loadManifest(sk).then(function (manifest) {
+      return Promise.all((manifest.games || []).map(function (g) { return loadGame(g.slug, sk); }));
     }).then(function (lists) {
       return lists.reduce(function (acc, list) { return acc.concat(list); }, []);
     });
   }
 
   function peek(id) {
-    return cache.byId.get(id) || null;
+    return caches.montreal.byId.get(id) || caches.ottawa.byId.get(id) || null;
+  }
+
+  function storeFromId(id) {
+    if (id && String(id).indexOf('ottawa-') === 0) return 'ottawa';
+    return 'montreal';
   }
 
   function findById(id, slugHint) {
     var hit = peek(id);
     if (hit) return Promise.resolve(hit);
-    var next = slugHint ? loadGame(slugHint) : loadAllGames();
+    var sk = storeFromId(id);
+    var next = slugHint ? loadGame(slugHint, sk) : loadAllGames(sk);
     return next.then(function () { return peek(id); });
   }
 
   function related(p, n) {
-    var list = (p && p.sg && cache.games[p.sg]) || [];
+    var sk = storeKey(p && p.store);
+    var list = (p && p.sg && caches[sk].games[p.sg]) || [];
     var same = list.filter(function (x) { return x.id !== p.id && x.category === p.category; });
     var rest = list.filter(function (x) { return x.id !== p.id && x.category !== p.category; });
     return same.concat(rest).slice(0, n || 4);
@@ -91,6 +135,7 @@
     loadAllGames: loadAllGames,
     peek: peek,
     findById: findById,
-    related: related
+    related: related,
+    storeKey: storeKey
   };
 })(window);
