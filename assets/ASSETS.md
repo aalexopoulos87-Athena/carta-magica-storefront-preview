@@ -38,7 +38,7 @@ Both are optimized local WebP category illustrations, not licensed product photo
 
 ## Events page action characters (preview illustrations)
 
-`assets/events/char-*.webp`: hand-painted fan-style preview illustrations made for this preview with an image generator, using official character art as reference. Backgrounds were removed for the cut-out effect. These are not official artwork, so replace them with licensed key art before production.
+`assets/events/char-*.webp`: hand-painted fan-style preview illustrations made for this preview with an image generator, using official character art as reference. Version 2 (9 Nov 2026) is a full action composition with spell, impact and energy effects, painted on black. The background was made transparent (a character mask plus luminance alpha) so the effects spread across the card and the character breaks out of the frame. These are not official artwork, so replace them with licensed key art before production.
 
 - `char-jinx.webp`: Jinx (League of Legends), on the Riftbound Nexus Night card and the next-event hero
 - `char-lorraine.webp`: Lorraine (Grand Archive), on the Grand Archive Regional card
