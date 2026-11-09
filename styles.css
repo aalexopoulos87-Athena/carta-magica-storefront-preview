@@ -531,3 +531,10 @@ mix-blend-mode:screen;opacity:.85;animation:evTwinkle 3.2s ease-in-out infinite}
 .ev-ch-mickey .ev-body{background:linear-gradient(90deg,rgba(11,11,11,.92) 0,rgba(11,11,11,.85) 52%,rgba(11,11,11,0) 72%)}
 @media(max-width:560px){.ev-ch-mickey:before{width:auto;left:0;bottom:auto;height:250px;border-radius:0 16px 0 0;background:radial-gradient(ellipse 50% 50% at 62% 50%,rgba(255,206,92,.38),transparent 72%)}.ev-ch-mickey:after{width:auto;left:30%;bottom:auto;height:250px;-webkit-mask-image:linear-gradient(to top,transparent 0,#000 40%);mask-image:linear-gradient(to top,transparent 0,#000 40%)}.ev-ch-mickey .ev-body{background:linear-gradient(180deg,transparent 0,transparent 120px,rgba(11,11,11,.9) 170px)}}
 @media(prefers-reduced-motion:reduce){.ev-ch-mickey:after{animation:none}}
+/* Mickey (Lorcana 13 Dec): text overlay matches the One Piece card (no dark scrim; text shadow only) */
+.ev-ch-mickey .ev-body{background:none}
+@media(max-width:560px){.ev-ch-mickey .ev-body{background:none}}
+/* Hero carousel arrows: geometric SVG chevrons, centred in the circle (9 Nov 2026) */
+.hero-nav{display:inline-flex;align-items:center;justify-content:center}
+.hero-nav-ico{display:block;width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:760px){.hero-nav-ico{width:20px;height:20px}}
