@@ -103,7 +103,7 @@ function renderMontrealSingles(p,kind,q){
     const meta=(manifest.games||[]).find(g=>g.game===gameName);
     const slug=meta?meta.slug:'';
     if(kind==='singles'&&!slug&&!q){
-      document.getElementById('singles-body').innerHTML=`<div class="game-grid singles-hub">${(manifest.games||[]).map(g=>`<a class="singles-cat" href="${link('collection.html',{kind:'singles',game:g.game})}"><strong>${esc(lang==='fr'?g.labelFr:g.label)}</strong><span>${fmtCount(g.count)} ${t('singlesCards')} · ${fmtCount(g.inStock)} ${t('singlesInStock')}</span></a>`).join('')}</div><p class="source-note">${fmtCount(manifest.total)} ${t('singlesCards')} · ${fmtCount(manifest.inStock)} ${t('singlesInStock')} · Montreal · 8 November 2026</p>`;
+      document.getElementById('singles-body').innerHTML=`<div class="game-grid singles-hub">${(manifest.games||[]).map(g=>`<a class="game-tile singles-cat-tile" href="${link('collection.html',{kind:'singles',game:g.game})}" aria-label="${esc(lang==='fr'?g.labelFr:g.label)}">${GAME_ART[g.game]?`<img class="game-poster" src="assets/${GAME_ART[g.game]}" alt="" width="864" height="1152" loading="eager" decoding="async"><img class="game-logo" src="assets/${GAME_LOGOS[g.game]}" alt="">`:''}<span class="singles-cat-info"><strong>${esc(lang==='fr'?g.labelFr:g.label)}</strong><span>${fmtCount(g.count)} ${t('singlesCards')} · ${fmtCount(g.inStock)} ${t('singlesInStock')}</span></span><span class="game-arrow" aria-hidden="true">↗</span></a>`).join('')}</div><p class="source-note">${fmtCount(manifest.total)} ${t('singlesCards')} · ${fmtCount(manifest.inStock)} ${t('singlesInStock')} · Montreal · 8 November 2026</p>`;
       return null;
     }
     return (slug?window.CartaSingles.loadGame(slug):window.CartaSingles.loadAllGames()).then(items=>{
