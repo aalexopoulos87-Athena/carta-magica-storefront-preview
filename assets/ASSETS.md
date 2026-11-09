@@ -29,3 +29,9 @@ Both are optimized local WebP category illustrations, not licensed product photo
 
 ## TCG Singles hub characters (9 Nov 2026)
 - `singles/yugioh.webp` (Dark Magician), `singles/pokemon.webp` (Pikachu), `singles/onepiece.webp` (Monkey D. Luffy), `singles/digimon.webp` (Agumon), `singles/unionarena.webp` (Ichigo Kurosaki, BLEACH), `singles/magic.webp` (Chandra Nalaar): preview illustrations made for this preview at the owner's request, cut out as transparent WebP. Not official Konami / The Pokémon Company / Bandai / Toei / Wizards of the Coast artwork; official character art was used only as a likeness reference.
+
+## Accessories & Gunpla (9 Nov 2026)
+- `products/<store>-<id>.webp` for every in-stock Accessories and Gunpla item in the 8 Nov 2026 exports: the product photo from each item's public store listing (cartamagica.com / cartamagicaottawa.com), resized to 480×480. Items whose listing has no photo or is not public use the category placeholder.
+
+## Events page (9 Nov 2026)
+- `events/logo-riftbound.png` (official Riftbound logo, riftbound.gg), `events/logo-grandarchive.png` (official Grand Archive logo, gatcg.com), `events/logo-onepiece.png` and `events/logo-lorcana.png` (trimmed copies of the official logos in `logos/`). The Luffy figure on the One Piece event reuses the preview illustration `singles/onepiece.webp`.

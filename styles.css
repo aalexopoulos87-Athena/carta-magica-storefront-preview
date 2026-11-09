@@ -412,3 +412,56 @@ html[data-theme] .finds-section .product-card:hover{
 .singles-logo-onepiece{filter:none}
 .singles-cat.has-char span{line-height:1.4}
 @media(max-width:760px){.singles-logo{height:46px}.singles-logo-pokemon{height:60px}.singles-logo-yugioh{height:52px}}
+/* Accessories type chips + show more (9 Nov 2026) */
+.sub-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.sub-chips button{border:1px solid var(--gold,#c09030);background:#fff;color:#111;border-radius:999px;padding:7px 14px;font-size:.82rem;font-weight:620;min-height:38px;transition:background-color .2s ease,color .2s ease}
+.sub-chips button span{color:#84601d;font-weight:700;margin-left:4px}
+.sub-chips button:hover,.sub-chips button.active{background:#111;color:#fff;border-color:#111}
+.sub-chips button:hover span,.sub-chips button.active span{color:var(--gold-bright,#dfaf48)}
+.show-more-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;margin:26px 0 6px}
+.show-more-wrap .source-note{margin:0}
+/* Events page — Montreal (9 Nov 2026): black/gold booth tickets */
+.ev-hero{position:relative;display:grid;grid-template-columns:1fr 230px;gap:0;background:#0b0b0b;color:#fff;border:1px solid var(--gold,#c09030);border-radius:20px;overflow:hidden;margin:6px 0 10px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.ev-hero:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 85% 20%,rgba(223,175,72,.22),transparent 55%),repeating-linear-gradient(90deg,transparent 0 38px,rgba(223,175,72,.05) 38px 39px);pointer-events:none}
+.ev-hero-copy{position:relative;padding:36px 40px}
+.ev-hero .eyebrow{color:var(--gold-bright,#dfaf48)}
+.ev-hero-logo{display:block;height:74px;width:auto;max-width:300px;object-fit:contain;margin:0 0 16px;filter:drop-shadow(0 4px 12px #000)}
+.ev-hero h2{color:#fff;font-size:clamp(1.7rem,3vw,2.6rem);margin:0 0 8px}
+.ev-hero-when{color:var(--gold-bright,#dfaf48);font-weight:650;margin:0 0 16px}
+.ev-hero .ev-meta dt{color:#bfa36a}.ev-hero .ev-meta dd{color:#eee}
+.ev-hero .button.secondary{color:#fff;border-color:var(--gold,#c09030)}
+.ev-hero-stub{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;background:linear-gradient(180deg,#1a140a,#0b0b0b);border-left:2px dashed rgba(223,175,72,.55);padding:24px}
+.ev-hero-stub .ev-stub{width:150px;height:auto;padding:16px 0;border-radius:14px}
+.ev-hero-stub .ev-day{font-size:3.6rem}
+.ev-hero-fee{display:flex;flex-direction:column;align-items:center;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#bfa36a}
+.ev-hero-fee b{font-size:1.4rem;letter-spacing:0;color:#fff;text-transform:none;margin-top:4px}
+.ev-section .section-head{margin-bottom:14px}
+.ev-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.ev-card{position:relative;display:flex;gap:0;background:#0f0f0f;color:#fff;border:1px solid #3a2d14;border-radius:16px;overflow:hidden;min-height:220px;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.ev-card[hidden]{display:none}
+.ev-card:hover,.ev-card:focus-within{transform:translateY(-4px);border-color:var(--gold,#c09030);box-shadow:0 0 0 1px var(--gold,#c09030),0 12px 28px rgba(192,144,48,.28),0 4px 10px rgba(0,0,0,.14)}
+.ev-stub{flex:0 0 92px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(180deg,#e0b85a,#b88a2c);color:#111;text-transform:uppercase;border-right:2px dashed rgba(0,0,0,.35);line-height:1}
+.ev-wd{font-size:.72rem;font-weight:750;letter-spacing:.14em}
+.ev-day{font-size:2.6rem;font-weight:800;letter-spacing:-.04em;margin:6px 0}
+.ev-mo{font-size:.8rem;font-weight:750;letter-spacing:.14em}
+.ev-body{position:relative;z-index:1;flex:1;min-width:0;padding:20px 22px}
+.ev-card.has-char .ev-body{padding-right:28%}
+.ev-top{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+.ev-logo{height:40px;width:auto;max-width:170px;object-fit:contain;filter:drop-shadow(0 2px 6px #000)}
+.ev-type{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--gold,#c09030);color:var(--gold-bright,#dfaf48);border-radius:5px;padding:3px 7px;font-weight:700}
+.ev-type.ev-off{border-color:#777;color:#ddd}
+.ev-card h3{color:#fff;font-size:1.2rem;margin:0 0 10px}
+.ev-meta{display:grid;gap:5px;margin:0 0 10px;font-size:.84rem}
+.ev-meta div{display:grid;grid-template-columns:78px 1fr;gap:8px}
+.ev-meta dt{color:#a88d55;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;padding-top:2px}
+.ev-meta dd{margin:0;color:#e9e9e9}
+.ev-prizes{margin:4px 0 8px;font-size:.84rem}
+.ev-prizes summary{cursor:pointer;color:var(--gold-bright,#dfaf48);font-weight:650}
+.ev-prizes ul{margin:8px 0 0;padding-left:18px;color:#ddd}
+.ev-src{font-size:.72rem;color:#9a9a9a;margin:6px 0 0}
+.ev-card .text-link{color:var(--gold-bright,#dfaf48)}
+.ev-char{position:absolute;right:8px;bottom:0;height:88%;max-width:30%;object-fit:contain;object-position:right bottom;pointer-events:none;transition:transform .2s ease;transform-origin:right bottom;filter:drop-shadow(0 6px 14px rgba(0,0,0,.6))}
+.ev-card:hover .ev-char{transform:scale(1.05)}
+@media (prefers-reduced-motion:reduce){.ev-card,.ev-char{transition:box-shadow .2s ease,border-color .2s ease}.ev-card:hover,.ev-card:focus-within{transform:none}.ev-card:hover .ev-char{transform:none}}
+@media(max-width:900px){.ev-list{grid-template-columns:1fr}.ev-hero{grid-template-columns:1fr}.ev-hero-stub{flex-direction:row;border-left:0;border-top:2px dashed rgba(223,175,72,.55)}.ev-hero-stub .ev-stub{width:110px}.ev-hero-stub .ev-day{font-size:2.6rem}}
+@media(max-width:560px){.ev-hero-copy{padding:26px 22px}.ev-hero-logo{height:56px}.ev-stub{flex-basis:70px}.ev-day{font-size:2rem}.ev-body{padding:16px}.ev-card.has-char .ev-body{padding-right:16px}.ev-char{display:none}.ev-meta div{grid-template-columns:1fr;gap:1px}}
