@@ -43,6 +43,6 @@ Both are optimized local WebP category illustrations, not licensed product photo
 - `char-jinx.webp`: Jinx (League of Legends), on the Riftbound Nexus Night card and the next-event hero
 - `char-lorraine.webp`: Lorraine (Grand Archive), on the Grand Archive Regional card
 - `char-luffy.webp`: Monkey D. Luffy, Gum-Gum Pistol (One Piece), on the One Piece Regional Championship card
-- `char-mickey.webp`: Sorcerer's Apprentice Mickey (Disney Lorcana), on the Sunday Weekly Lorcana card for 13 Dec
+- `char-mickey.webp`: Sorcerer's Apprentice Mickey (Disney Lorcana), on the Sunday Weekly Lorcana card for 13 Dec. Version 3 (9 Nov 2026) is the same pose with extra golden swirls, star trails and sparkles.
 - `char-elsa.webp`: Elsa casting ice (Disney Lorcana), on the Sunday Weekly Lorcana card for 20 Dec
 - `char-stitch.webp`: Stitch (Disney Lorcana), on the Sunday Weekly Lorcana card for 27 Dec
