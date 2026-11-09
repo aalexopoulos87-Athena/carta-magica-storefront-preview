@@ -46,3 +46,8 @@ Both are optimized local WebP category illustrations, not licensed product photo
 - `char-mickey.webp`: Sorcerer's Apprentice Mickey (Disney Lorcana), on the Sunday Weekly Lorcana card for 13 Dec. Version 3 (9 Nov 2026) is the same pose with extra golden swirls, star trails and sparkles.
 - `char-elsa.webp`: Elsa casting ice (Disney Lorcana), on the Sunday Weekly Lorcana card for 20 Dec
 - `char-stitch.webp`: Stitch (Disney Lorcana), on the Sunday Weekly Lorcana card for 27 Dec
+
+### Ottawa event characters (added 9 Nov 2026, cache 20261109q)
+- `assets/events/char-pikachu.webp` — **preview illustration** (generated), electric-mouse character for the Ottawa Pokémon event cards; same full-composition cutout style as the other event characters (760×760 RGBA, alpha = max(subject mask, luminance) so effects drawn on black stay visible).
+- `assets/events/char-darkmagician.webp` — **preview illustration** (generated), spellcaster character for the Ottawa Yu-Gi-Oh! event card; same style and processing.
+- `assets/events/logo-pokemon.png`, `assets/events/logo-yugioh.png` — copies of the existing `assets/singles/` game logos, reused for event cards.
