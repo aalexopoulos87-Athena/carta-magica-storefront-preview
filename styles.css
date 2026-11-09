@@ -404,3 +404,11 @@ html[data-theme] .finds-section .product-card:hover{
 @media (prefers-reduced-motion:reduce){.singles-cat:hover .singles-char,.singles-cat:focus-visible .singles-char{transform:none}}
 @media(max-width:1100px){.game-grid.singles-hub{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:30px}}
 @media(max-width:760px){.game-grid.singles-hub{grid-template-columns:1fr;row-gap:30px}.singles-cat.has-char{padding-right:40%;min-height:140px}.singles-char{max-height:170px;max-width:34%}}
+/* TCG Singles hub: official game logo instead of the heading text (9 Nov 2026) */
+.singles-cat.has-char{justify-content:center;gap:10px}
+.singles-name{display:block;line-height:0}
+.singles-logo{display:block;height:50px;width:auto;max-width:100%;object-fit:contain;object-position:left center;filter:drop-shadow(0 1px 1px rgba(0,0,0,.18))}
+.singles-logo-pokemon{height:64px}.singles-logo-yugioh{height:56px}
+.singles-logo-onepiece{filter:none}
+.singles-cat.has-char span{line-height:1.4}
+@media(max-width:760px){.singles-logo{height:46px}.singles-logo-pokemon{height:60px}.singles-logo-yugioh{height:52px}}
