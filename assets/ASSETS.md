@@ -23,6 +23,6 @@ Both are optimized local WebP category illustrations, not licensed product photo
 
 ## Hero banner updates (9 Nov 2026)
 
-- `banners/montreal-1067358.webp`, `banners/release-dbfw-fb11.webp`: Dragon Ball Super Card Game Fusion World FB11-121 Son Goku (SCR parallel, Super Saiyan 3 Dragon Fist), official Bandai card image from https://www.dbs-cardgame.com/fw/images/cards/card/en/FB11-121_p1.webp, with the FB11 Brightness of Hope booster box render from the store listing. © Bird Studio/Shueisha, Toei Animation; Bandai.
+- `banners/montreal-1067358.webp`, `banners/release-dbfw-fb11.webp`: new preview illustration of Super Saiyan 3 Son Goku throwing the Dragon Fist, made for this preview at the owner's request (9 Nov 2026). Not official Bandai/Toei artwork; official card FB11-121 (SCR parallel) was used only as a likeness/style reference. No booster box.
 - `banners/release-fab-iar.webp`: Flesh and Blood IAR106 Viserai, Usurper (art by Nathaniel Himawan), official Legend Story Studios card image from https://cdn.fabtcg.com/uploads/2026/07/IAR106_V2_BACK.webp, with the official Usurp the Shadow Throne booster display render https://cdn.fabtcg.com/uploads/2026/07/iar-display-en.webp. © Legend Story Studios.
 - `banners/montreal-1068679.webp`, `banners/ottawa-821835.webp`: new illustration of Nami and Nico Robin (EB-05 Heroines Edition vol.2) made for this preview at the owner's request, using official EB05-061 and EB05-010 card art as style references only. Not official Bandai/Toei artwork.
