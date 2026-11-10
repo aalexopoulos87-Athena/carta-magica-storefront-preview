@@ -1,9 +1,8 @@
 {
-  "source": "Carta Magica Ottawa Crystal Commerce stock: Pokémon Singles #48 and Yu-Gi-Oh! Singles #52 (~8–10 November 2026)",
+  "source": "Carta Magica Ottawa Crystal Commerce store stock: Pokémon #48, Yu-Gi-Oh! #52, Flesh & Blood #49, and remaining TCG Singles from category report #37 (Magic and other games; Magic dedicated report #53 was stuck).",
   "store": "ottawa",
-  "total": 92071,
-  "inStock": 14627,
-  "inStockQty": 269881,
+  "total": 196422,
+  "inStock": 18265,
   "games": [
     {
       "slug": "yugioh",
@@ -63,7 +62,8 @@
           "name": "Battle Pack 3: Monster League",
           "count": 501
         }
-      ]
+      ],
+      "sourceReport": "52"
     },
     {
       "slug": "pokemon",
@@ -123,15 +123,340 @@
           "name": "Unbroken Bonds",
           "count": 410
         }
-      ]
+      ],
+      "sourceReport": "48"
+    },
+    {
+      "slug": "one-piece",
+      "game": "One Piece",
+      "label": "One Piece Singles",
+      "labelFr": "Carte à l'unité One Piece",
+      "file": "data/ottawa-singles/one-piece.json",
+      "count": 5463,
+      "inStock": 352,
+      "sets": 38,
+      "topSets": [
+        {
+          "name": "One Piece Promos",
+          "count": 1229
+        },
+        {
+          "name": "Premium Booster - The Best Vol 2",
+          "count": 402
+        },
+        {
+          "name": "Emperors In the New World",
+          "count": 247
+        },
+        {
+          "name": "Premium Booster",
+          "count": 223
+        },
+        {
+          "name": "OP14 - The Azure Sea's Seven",
+          "count": 211
+        },
+        {
+          "name": "Adventure on Kami's Island - OP15",
+          "count": 196
+        },
+        {
+          "name": "OP17 - The World's Strongest Warriors",
+          "count": 179
+        },
+        {
+          "name": "Carrying On His Will",
+          "count": 177
+        },
+        {
+          "name": "OP-01 - Romance Dawn",
+          "count": 159
+        },
+        {
+          "name": "OP-05: Awakening of the New Era",
+          "count": 157
+        },
+        {
+          "name": "OP12 - Legacy of the Master",
+          "count": 156
+        },
+        {
+          "name": "OP11 - A Fist of Devine Speed",
+          "count": 156
+        }
+      ],
+      "sourceReport": "37"
+    },
+    {
+      "slug": "union-arena",
+      "game": "Union Arena",
+      "label": "Union Arena Singles",
+      "labelFr": "Carte à l'unité Union Arena",
+      "file": "data/ottawa-singles/union-arena.json",
+      "count": 4539,
+      "inStock": 1913,
+      "sets": 36,
+      "topSets": [
+        {
+          "name": "That Time I Got Reincarnated As A Slime",
+          "count": 255
+        },
+        {
+          "name": "Goddess of Victory: Nikke",
+          "count": 185
+        },
+        {
+          "name": "Yu-Yu Hakusho",
+          "count": 166
+        },
+        {
+          "name": "Demon Slayer: Kimetsu No Yaiba",
+          "count": 163
+        },
+        {
+          "name": "Tokyo Ghoul",
+          "count": 154
+        },
+        {
+          "name": "Sword Art Online",
+          "count": 154
+        },
+        {
+          "name": "Re:ZERO -Starting Life in Another World",
+          "count": 152
+        },
+        {
+          "name": "Code Geass: Lelouch of the Rebellion",
+          "count": 149
+        },
+        {
+          "name": "FULLMETAL ALCHEMIST",
+          "count": 148
+        },
+        {
+          "name": "Black Clover",
+          "count": 145
+        },
+        {
+          "name": "Attack on Titan",
+          "count": 144
+        },
+        {
+          "name": "One Punch Man",
+          "count": 144
+        }
+      ],
+      "sourceReport": "37"
+    },
+    {
+      "slug": "magic",
+      "game": "Magic: The Gathering",
+      "label": "Magic Singles",
+      "labelFr": "Carte de Magic à l'unité",
+      "file": "data/ottawa-singles/magic.json",
+      "count": 85451,
+      "inStock": 159,
+      "sets": 240,
+      "topSets": [
+        {
+          "name": "Mystery Booster",
+          "count": 2314
+        },
+        {
+          "name": "Pre-Release Promos",
+          "count": 1735
+        },
+        {
+          "name": "Modern Horizons 2",
+          "count": 1436
+        },
+        {
+          "name": "Commander Legends",
+          "count": 1260
+        },
+        {
+          "name": "Throne of Eldraine",
+          "count": 1129
+        },
+        {
+          "name": "Innistrad: Midnight Hunt",
+          "count": 1025
+        },
+        {
+          "name": "Kamigawa: Neon Dynasty",
+          "count": 1022
+        },
+        {
+          "name": "Core Set 2021",
+          "count": 1017
+        },
+        {
+          "name": "World Championship Singles",
+          "count": 1000
+        },
+        {
+          "name": "Core Set 2020",
+          "count": 996
+        },
+        {
+          "name": "Theros Beyond Death",
+          "count": 991
+        },
+        {
+          "name": "Kaldheim",
+          "count": 977
+        }
+      ],
+      "sourceReport": "37"
+    },
+    {
+      "slug": "riftbound",
+      "game": "Riftbound",
+      "label": "Riftbound Singles",
+      "labelFr": "Carte à l'unité Riftbound",
+      "file": "data/ottawa-singles/riftbound.json",
+      "count": 2052,
+      "inStock": 962,
+      "sets": 7,
+      "topSets": [
+        {
+          "name": "Origins",
+          "count": 516
+        },
+        {
+          "name": "Spiritforged",
+          "count": 416
+        },
+        {
+          "name": "Unleashed",
+          "count": 409
+        },
+        {
+          "name": "Vendetta",
+          "count": 329
+        },
+        {
+          "name": "Riftbound Organized Play Promos",
+          "count": 190
+        },
+        {
+          "name": "Radiance",
+          "count": 164
+        },
+        {
+          "name": "Origins: Proving Grounds",
+          "count": 28
+        }
+      ],
+      "sourceReport": "37"
+    },
+    {
+      "slug": "gundam",
+      "game": "Gundam Card Game",
+      "label": "Gundam Card Game Singles",
+      "labelFr": "Jeu de cartes Gundam à l'unité",
+      "file": "data/ottawa-singles/gundam.json",
+      "count": 1782,
+      "inStock": 252,
+      "sets": 20,
+      "topSets": [
+        {
+          "name": "Steel Requiem - GD03",
+          "count": 202
+        },
+        {
+          "name": "GD05 - Freedom Ascension",
+          "count": 197
+        },
+        {
+          "name": "Phantom Aria - GD04",
+          "count": 194
+        },
+        {
+          "name": "Newtype Rising - GD01",
+          "count": 193
+        },
+        {
+          "name": "GD06 - Stardust Trails",
+          "count": 189
+        },
+        {
+          "name": "Dual Impact - GD02",
+          "count": 187
+        },
+        {
+          "name": "Eternal Nexus - EB01",
+          "count": 108
+        },
+        {
+          "name": "Gundam Card Game - Beta Edition",
+          "count": 83
+        },
+        {
+          "name": "Promotional Resource Tokens",
+          "count": 72
+        },
+        {
+          "name": "Deck Build Box Freedom Ascension",
+          "count": 48
+        },
+        {
+          "name": "Starter Deck 09: Destiny Ignition",
+          "count": 39
+        },
+        {
+          "name": "Starter Deck 06: Clan Unity",
+          "count": 32
+        }
+      ],
+      "sourceReport": "37"
+    },
+    {
+      "slug": "flesh-blood",
+      "game": "Flesh & Blood",
+      "label": "Flesh & Blood Singles",
+      "labelFr": "Carte à l'unité Flesh & Blood",
+      "file": "data/ottawa-singles/flesh-blood.json",
+      "count": 5064,
+      "inStock": 0,
+      "sets": 6,
+      "topSets": [
+        {
+          "name": "Monarch",
+          "count": 1437
+        },
+        {
+          "name": "Welcome To Rathe",
+          "count": 1000
+        },
+        {
+          "name": "Arcane Rising",
+          "count": 978
+        },
+        {
+          "name": "Tales of Aria",
+          "count": 739
+        },
+        {
+          "name": "Crucible of War",
+          "count": 500
+        },
+        {
+          "name": "Everfest",
+          "count": 410
+        }
+      ],
+      "sourceReport": "49"
     }
   ],
-  "pendingGames": [
-    "Magic: The Gathering",
-    "One Piece",
-    "Digimon",
-    "Union Arena",
-    "Flesh & Blood",
-    "other TCG singles"
-  ]
+  "skippedZeroStockFrom37": {
+    "Lorcana": 2564,
+    "Digimon": 1699,
+    "Dragon Ball Super": 6665,
+    "Dragon Ball Super Fusion World": 482,
+    "Shadowverse: Evolve": 879,
+    "Battle Spirits": 339,
+    "Palworld": 162
+  },
+  "note": "Report #55 (named Cardfight!! Vanguard Singles) contained Shadowverse: Evolve and Palworld listings, all with no positive quantity. No Cardfight!! Vanguard, Star Wars Unlimited, Grand Archive, Sorcery, Weiss Schwarz, Duel Masters, UFS, or WIXOSS singles category was present in #37."
 }
