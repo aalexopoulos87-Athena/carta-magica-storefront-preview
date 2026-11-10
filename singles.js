@@ -18,7 +18,7 @@
       : 'data/singles-manifest.json';
   }
 
-  var V = '20261110d';
+  var V = '20261110e';
   function sourceMeta(store, meta) {
     if (storeKey(store) === 'ottawa') {
       var rep = meta && meta.sourceReport ? String(meta.sourceReport) : '';
