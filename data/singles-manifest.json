@@ -1,8 +1,8 @@
 {
-  "source": "Carta Magica Montreal Crystal Commerce export, 8 November 2026",
+  "source": "Carta Magica Montreal Crystal Commerce stock, 8 November 2026 (all singles categories with stock)",
   "store": "montreal",
-  "total": 169489,
-  "inStock": 58955,
+  "total": 190880,
+  "inStock": 67676,
   "games": [
     {
       "slug": "yugioh",
@@ -10,9 +10,9 @@
       "label": "Yu-Gi-Oh! Singles",
       "labelFr": "Carte à l'unité Yu-Gi-Oh",
       "file": "data/singles/yugioh.json",
-      "count": 53779,
-      "inStock": 25496,
-      "sets": 493,
+      "count": 54483,
+      "inStock": 25833,
+      "sets": 509,
       "topSets": [
         {
           "name": "Quarter Century Stampede",
@@ -46,7 +46,8 @@
           "name": "25th Anniversary Rarity Collection 2",
           "count": 567
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
     },
     {
       "slug": "pokemon",
@@ -54,9 +55,9 @@
       "label": "Pokémon Singles",
       "labelFr": "Carte à l'unité Pokémon",
       "file": "data/singles/pokemon.json",
-      "count": 37612,
-      "inStock": 6195,
-      "sets": 151,
+      "count": 38030,
+      "inStock": 6456,
+      "sets": 154,
       "topSets": [
         {
           "name": "Pokemon Promos",
@@ -90,7 +91,8 @@
           "name": "Prismatic Evolutions",
           "count": 448
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
     },
     {
       "slug": "one-piece",
@@ -98,9 +100,9 @@
       "label": "One Piece Singles",
       "labelFr": "Carte à l'unité One Piece",
       "file": "data/singles/one-piece.json",
-      "count": 6138,
-      "inStock": 1225,
-      "sets": 39,
+      "count": 6235,
+      "inStock": 1233,
+      "sets": 44,
       "topSets": [
         {
           "name": "One Piece TCG Promos",
@@ -134,7 +136,8 @@
           "name": "OP-13 Carrying on his Will",
           "count": 177
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
     },
     {
       "slug": "digimon",
@@ -142,9 +145,9 @@
       "label": "Digimon Card Game Singles",
       "labelFr": "Jeu de cartes Digimon à l'unité",
       "file": "data/singles/digimon.json",
-      "count": 4854,
-      "inStock": 2018,
-      "sets": 43,
+      "count": 5027,
+      "inStock": 2040,
+      "sets": 45,
       "topSets": [
         {
           "name": "Cartes Promotionnelles Digimon // Digimon Promotional Cards",
@@ -178,7 +181,8 @@
           "name": "BT7 : Prochaine Aventure // BT7: Next Adventure",
           "count": 156
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
     },
     {
       "slug": "union-arena",
@@ -186,31 +190,44 @@
       "label": "Union Arena Singles",
       "labelFr": "Carte à l'unité Union Arena",
       "file": "data/singles/union-arena.json",
-      "count": 666,
-      "inStock": 90,
-      "sets": 5,
+      "count": 4509,
+      "inStock": 973,
+      "sets": 32,
       "topSets": [
+        {
+          "name": "That Time I Got Reincarnated as a Slime",
+          "count": 280
+        },
         {
           "name": "Union Arena Starter Decks",
           "count": 182
         },
         {
-          "name": "KAGURABACHI",
-          "count": 139
+          "name": "Yu Yu-Hakusho: Ghost Files",
+          "count": 179
         },
         {
-          "name": "Jujutsu Kaisen Vol.2",
-          "count": 130
+          "name": "Demon Slayer: Kimetsu no Yaiba",
+          "count": 163
         },
         {
-          "name": "BLEACH: Thousand-Year Blood War Vol.2",
-          "count": 108
+          "name": "Sword Art Online",
+          "count": 154
         },
         {
-          "name": "Attack on Titan Vol. 2",
-          "count": 107
+          "name": "Tokyo Ghoul",
+          "count": 154
+        },
+        {
+          "name": "Re:ZERO -Starting Life in Another World-",
+          "count": 152
+        },
+        {
+          "name": "Code GEASS: Lelouch of the Rebellion",
+          "count": 150
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
     },
     {
       "slug": "magic",
@@ -218,9 +235,9 @@
       "label": "Magic Singles",
       "labelFr": "Carte de Magic à l'unité",
       "file": "data/singles/magic.json",
-      "count": 66440,
-      "inStock": 23931,
-      "sets": 213,
+      "count": 67694,
+      "inStock": 23933,
+      "sets": 214,
       "topSets": [
         {
           "name": "Ikoria: Lair of Behemoths",
@@ -236,7 +253,7 @@
         },
         {
           "name": "Double Masters",
-          "count": 879
+          "count": 883
         },
         {
           "name": "Zendikar Rising",
@@ -251,18 +268,196 @@
           "count": 767
         },
         {
-          "name": "9th Edition",
-          "count": 718
+          "name": "The Hobbit",
+          "count": 743
         }
-      ]
+      ],
+      "stockDate": "2026-11-08"
+    },
+    {
+      "slug": "vanguard",
+      "game": "Cardfight!! Vanguard",
+      "label": "Cardfight!! Vanguard Singles",
+      "labelFr": "Carte à l'unité Cardfight!! Vanguard",
+      "file": "data/singles/vanguard.json",
+      "count": 6519,
+      "inStock": 3345,
+      "sets": 97,
+      "topSets": [
+        {
+          "name": "Cardfight!! Vanguard Promos",
+          "count": 325
+        },
+        {
+          "name": "BT16: Legion of Dragons & Blades ver.E",
+          "count": 164
+        },
+        {
+          "name": "BT17: Blazing Perdition ver.E",
+          "count": 164
+        },
+        {
+          "name": "G-BT11: Demonic Advent",
+          "count": 145
+        },
+        {
+          "name": "G-BT08: Absolute Judgment",
+          "count": 144
+        },
+        {
+          "name": "G-BT07: Glorious Bravery of Radiant Sword",
+          "count": 141
+        },
+        {
+          "name": "G-BT09: Divine Dragon Caper",
+          "count": 138
+        },
+        {
+          "name": "G-BT10: Raging Clash of the Blade Fang",
+          "count": 131
+        }
+      ],
+      "stockDate": "2026-11-08"
+    },
+    {
+      "slug": "force-of-will",
+      "game": "Force of Will",
+      "label": "Force of Will Singles",
+      "labelFr": "Carte à l'unité Force of Will",
+      "file": "data/singles/force-of-will.json",
+      "count": 5017,
+      "inStock": 2232,
+      "sets": 31,
+      "topSets": [
+        {
+          "name": "Ancient Night",
+          "count": 325
+        },
+        {
+          "name": "The Time Spinning Witch",
+          "count": 318
+        },
+        {
+          "name": "Advent of The Demon King",
+          "count": 311
+        },
+        {
+          "name": "The Twilight Wanderer",
+          "count": 266
+        },
+        {
+          "name": "Winds of the Ominous Moon",
+          "count": 250
+        },
+        {
+          "name": "Echoes of the New World",
+          "count": 249
+        },
+        {
+          "name": "The Moonlit Savior",
+          "count": 249
+        },
+        {
+          "name": "Battle For Attoractia",
+          "count": 244
+        }
+      ],
+      "stockDate": "2026-11-08"
+    },
+    {
+      "slug": "dragon-ball-super",
+      "game": "Dragon Ball Super",
+      "label": "Dragon Ball Super Card Game Singles",
+      "labelFr": "Carte à l'unité Dragon Ball Super",
+      "file": "data/singles/dragon-ball-super.json",
+      "count": 2174,
+      "inStock": 1082,
+      "sets": 14,
+      "topSets": [
+        {
+          "name": "Series 11: Vermilion Bloodline",
+          "count": 292
+        },
+        {
+          "name": "Series 6: Destroyer Kings",
+          "count": 227
+        },
+        {
+          "name": "Series 3: Cross Worlds",
+          "count": 226
+        },
+        {
+          "name": "Series 5: Miraculous Revival",
+          "count": 221
+        },
+        {
+          "name": "Series 4: Colossal Warfare",
+          "count": 217
+        },
+        {
+          "name": "Dragon Ball Super Promos",
+          "count": 201
+        },
+        {
+          "name": "Theme Booster 1: The Tournament of Power",
+          "count": 175
+        },
+        {
+          "name": "Series 2 Booster: Union Forces",
+          "count": 127
+        }
+      ],
+      "stockDate": "2026-11-08"
+    },
+    {
+      "slug": "star-wars-destiny",
+      "game": "Star Wars Destiny",
+      "label": "Star Wars: Destiny Singles",
+      "labelFr": "Carte à l'unité Star Wars: Destiny",
+      "file": "data/singles/star-wars-destiny.json",
+      "count": 828,
+      "inStock": 548,
+      "sets": 5,
+      "topSets": [
+        {
+          "name": "Legacies",
+          "count": 180
+        },
+        {
+          "name": "Awakenings",
+          "count": 176
+        },
+        {
+          "name": "Spirit of Rebellion",
+          "count": 160
+        },
+        {
+          "name": "Way of the Force",
+          "count": 160
+        },
+        {
+          "name": "Empire at War",
+          "count": 152
+        }
+      ],
+      "stockDate": "2026-11-08"
+    },
+    {
+      "slug": "my-hero-academia",
+      "game": "My Hero Academia",
+      "label": "My Hero Academia CCG Singles",
+      "labelFr": "Carte à l'unité My Hero Academia",
+      "file": "data/singles/my-hero-academia.json",
+      "count": 364,
+      "inStock": 1,
+      "sets": 1,
+      "topSets": [
+        {
+          "name": "My Hero Academia - Series 1",
+          "count": 364
+        }
+      ],
+      "stockDate": "2026-11-08"
     }
-  ],
-  "excludedFromTcgSinglesMenu": {
-    "Force of Will": 5028,
-    "other": 6521,
-    "Star Wars Destiny": 828,
-    "Dragon Ball Super": 2173,
-    "Flesh & Blood": 867,
-    "My Hero Academia": 364
-  }
+  ]
 }

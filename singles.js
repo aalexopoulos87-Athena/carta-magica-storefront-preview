@@ -1,6 +1,6 @@
 /* TCG singles loaded on demand from Crystal Commerce export snapshots.
    Same-origin JSON only — no live Crystal Commerce or admin requests.
-   Montreal: full six-game menu. Ottawa: Pokémon Singles so far (#48). */
+   Montreal: every singles category with stock (8 Nov 2026). Ottawa: every game with stock (8–10 Nov 2026). */
 (function (root) {
   'use strict';
   var caches = {
@@ -18,11 +18,13 @@
       : 'data/singles-manifest.json';
   }
 
-  function sourceMeta(store) {
+  var V = '20261110d';
+  function sourceMeta(store, meta) {
     if (storeKey(store) === 'ottawa') {
+      var rep = meta && meta.sourceReport ? String(meta.sourceReport) : '';
       return {
-        source: 'crystal-commerce-ottawa-pokemon-export-48',
-        sourceName: 'Carta Magica Ottawa Pokémon Singles export #48, ~8 November 2026',
+        source: 'crystal-commerce-ottawa-stock' + (rep ? ' (' + rep + ')' : ''),
+        sourceName: 'Carta Magica Ottawa store stock' + (meta && meta.stockDate ? ', ' + meta.stockDate : ''),
         prefix: 'ottawa-'
       };
     }
@@ -37,7 +39,7 @@
     var name = raw.n || '';
     var nameFr = raw.nf || name;
     var sk = storeKey(store);
-    var src = sourceMeta(sk);
+    var src = sourceMeta(sk, meta);
     var id = src.prefix + raw.i;
     var p = {
       id: id,
@@ -67,7 +69,7 @@
     var sk = storeKey(store);
     var cache = caches[sk];
     if (cache.manifest) return Promise.resolve(cache.manifest);
-    return fetch(manifestUrl(sk)).then(function (res) {
+    return fetch(manifestUrl(sk) + '?v=' + V).then(function (res) {
       if (!res.ok) throw new Error('singles manifest ' + sk + ' ' + res.status);
       return res.json();
     }).then(function (data) {
@@ -84,7 +86,7 @@
     return loadManifest(sk).then(function (manifest) {
       var meta = (manifest.games || []).find(function (g) { return g.slug === slug; });
       if (!meta) return [];
-      return fetch(meta.file).then(function (res) {
+      return fetch(meta.file + '?v=' + V).then(function (res) {
         if (!res.ok) throw new Error('singles ' + sk + ' ' + slug + ' ' + res.status);
         return res.json();
       }).then(function (raw) {

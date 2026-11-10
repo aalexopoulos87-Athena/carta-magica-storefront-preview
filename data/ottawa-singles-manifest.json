@@ -1,8 +1,8 @@
 {
-  "source": "Carta Magica Ottawa Crystal Commerce store stock: Pokémon #48, Yu-Gi-Oh! #52, Flesh & Blood #49, and remaining TCG Singles from category report #37 (Magic and other games; Magic dedicated report #53 was stuck).",
+  "source": "Carta Magica Ottawa Crystal Commerce stock: Pokémon #48 (9 Nov), Yu-Gi-Oh! #52/#37, Flesh & Blood #49, other TCG singles #37, Magic per-set exports (10 Nov 2026).",
   "store": "ottawa",
-  "total": 196422,
-  "inStock": 18265,
+  "total": 196524,
+  "inStock": 18276,
   "games": [
     {
       "slug": "yugioh",
@@ -10,9 +10,9 @@
       "label": "Yu-Gi-Oh! Singles",
       "labelFr": "Carte à l'unité Yu-Gi-Oh",
       "file": "data/ottawa-singles/yugioh.json",
-      "count": 53636,
-      "inStock": 6514,
-      "sets": 518,
+      "count": 53739,
+      "inStock": 6527,
+      "sets": 521,
       "topSets": [
         {
           "name": "Quarter Century Stampede",
@@ -63,7 +63,8 @@
           "count": 501
         }
       ],
-      "sourceReport": "52"
+      "sourceReport": "52 + 37",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "pokemon",
@@ -72,7 +73,7 @@
       "labelFr": "Carte à l'unité Pokémon",
       "file": "data/ottawa-singles/pokemon.json",
       "count": 38435,
-      "inStock": 8113,
+      "inStock": 8112,
       "sets": 162,
       "topSets": [
         {
@@ -124,7 +125,8 @@
           "count": 410
         }
       ],
-      "sourceReport": "48"
+      "sourceReport": "48",
+      "stockDate": "2026-11-09"
     },
     {
       "slug": "one-piece",
@@ -185,7 +187,8 @@
           "count": 156
         }
       ],
-      "sourceReport": "37"
+      "sourceReport": "37",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "union-arena",
@@ -246,7 +249,8 @@
           "count": 144
         }
       ],
-      "sourceReport": "37"
+      "sourceReport": "37",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "magic",
@@ -254,8 +258,8 @@
       "label": "Magic Singles",
       "labelFr": "Carte de Magic à l'unité",
       "file": "data/ottawa-singles/magic.json",
-      "count": 85451,
-      "inStock": 159,
+      "count": 85450,
+      "inStock": 158,
       "sets": 240,
       "topSets": [
         {
@@ -307,7 +311,8 @@
           "count": 977
         }
       ],
-      "sourceReport": "37"
+      "sourceReport": "per-set Magic exports, 10 Nov 2026",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "riftbound",
@@ -348,7 +353,8 @@
           "count": 28
         }
       ],
-      "sourceReport": "37"
+      "sourceReport": "37",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "gundam",
@@ -409,7 +415,8 @@
           "count": 32
         }
       ],
-      "sourceReport": "37"
+      "sourceReport": "37",
+      "stockDate": "2026-11-10"
     },
     {
       "slug": "flesh-blood",
@@ -446,7 +453,8 @@
           "count": 410
         }
       ],
-      "sourceReport": "49"
+      "sourceReport": "49",
+      "stockDate": "2026-11-10"
     }
   ],
   "skippedZeroStockFrom37": {
