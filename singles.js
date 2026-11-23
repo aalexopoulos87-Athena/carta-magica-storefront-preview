@@ -1,6 +1,6 @@
 /* TCG singles loaded on demand from Crystal Commerce export snapshots.
    Same-origin JSON only — no live Crystal Commerce or admin requests.
-   Montreal: every singles category with stock (8 Nov 2026). Ottawa: every game with stock (8–10 Nov 2026). */
+   Montreal: Crystal Commerce category exports (23 Nov 2026), pending categories kept from the prior snapshot. Ottawa: Crystal Commerce category exports (23 Nov 2026), pending categories kept from the prior snapshot. */
 (function (root) {
   'use strict';
   var caches = {
@@ -18,7 +18,7 @@
       : 'data/singles-manifest.json';
   }
 
-  var V = '20261110e';
+  var V = '20261123a';
   function sourceMeta(store, meta) {
     if (storeKey(store) === 'ottawa') {
       var rep = meta && meta.sourceReport ? String(meta.sourceReport) : '';
@@ -29,8 +29,8 @@
       };
     }
     return {
-      source: 'crystal-commerce-montreal-export-2026-11-08',
-      sourceName: 'Carta Magica Montreal inventory export, 8 November 2026',
+      source: 'crystal-commerce-montreal-export-2026-11-23',
+      sourceName: 'Carta Magica Montreal inventory export, 23 November 2026',
       prefix: 'montreal-'
     };
   }
